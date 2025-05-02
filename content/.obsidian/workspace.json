@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about.md",
+                "file": "_index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "_index"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 258.5
   },
   "right": {
     "id": "9fc72adaaabba61e",
@@ -167,11 +167,14 @@
   },
   "active": "0e3351425962a780",
   "lastOpenFiles": [
+    "about.md",
+    "zz Notes/Hextra formatting quirks.md",
+    "zz Notes/Hugo Hextra links.md",
+    "_index.md",
+    "zz Notes",
     "docs/first-page.md",
     "docs/folder/leaf.md",
     "docs/_index.md",
-    "docs/folder/_index.md",
-    "about.md",
-    "_index.md"
+    "docs/folder/_index.md"
   ]
 }

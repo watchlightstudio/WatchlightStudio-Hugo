@@ -1,0 +1,1 @@
+Hextra commonly uses: `about`, `docs`, `blog`, `page`. as types

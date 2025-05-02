@@ -1,6 +1,7 @@
 ---
-title: My Site
+title: Watchlight Studio
 toc: false
+subtitle: stest 
 ---
 
 This is the landing page.

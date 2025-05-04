@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.md",
+                "file": "devlog/weeklies/devlog-2025-04-07.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "devlog-2025-04-07"
             }
           }
         ]
@@ -167,14 +167,29 @@
   },
   "active": "0e3351425962a780",
   "lastOpenFiles": [
-    "about.md",
+    "devlog/weeklies/_index.md",
+    "devlog/weeklies/devlog-2025-04-07.md",
+    "devlog/weeklies/devlog-2025-04-14.md",
+    "devlog/_index.md",
+    "devlog/favorites/_index.md",
+    "devlog/weeklies",
+    "devlog/favorites",
+    "about/about-the-studio.md",
+    "_index.md",
+    "about/about-me.md",
+    "Untitled.md",
+    "about/_index.md",
+    "devlog",
+    "projects",
+    "about/watchlight-values.md",
+    "about/watchlight-origins.md",
+    "docs/_index.md",
+    "about",
+    "docs/first-page.md",
     "zz Notes/Hextra formatting quirks.md",
     "zz Notes/Hugo Hextra links.md",
-    "_index.md",
     "zz Notes",
-    "docs/first-page.md",
     "docs/folder/leaf.md",
-    "docs/_index.md",
     "docs/folder/_index.md"
   ]
 }

@@ -4,13 +4,15 @@ toc: false
 subtitle: stest 
 ---
 
-This is the landing page.
+
 
 ## Explore
 
 {{< cards >}}
   {{< card link="docs" title="Docs" icon="book-open" >}}
   {{< card link="about" title="About" icon="user" >}}
+  {{< card link="devlog" title="Devlog" icon="user" >}}
+  {{< card link="projects" title="Projects" icon="user" >}}
 {{< /cards >}}
 
 ## Documentation

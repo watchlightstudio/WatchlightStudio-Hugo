@@ -1,16 +1,12 @@
 ---
-title: About pages
-next: first-page
+linkTitle: "About pages"
 type: docs
 ---
-
-Explore the identity of Watchlight Studio. 
-
 ## Explore
 
 {{< cards >}}
-  {{< card link="about-the-studio" title="About the Studio" icon="book-open" >}}
-  {{< card link="about-the-dev" title="About the Dev" icon="user" >}}
-  {{< card link="watchlight-origins" title="Origins" icon="user" >}}
-  {{< card link="watchlight-values" title="Values" icon="user" >}}
+  {{< card link="about-the-studio" title="About the Studio" icon="document" >}}
+  {{< card link="watchlight-origins" title="Watchlight Origins" icon="document" >}}
+  {{< card link="watchlight-values" title="Studio Values" icon="sparkles" >}}
+  {{< card link="about-the-dev" title="About the Dev" icon="identification" >}}
 {{< /cards >}}

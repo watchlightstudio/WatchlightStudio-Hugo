@@ -1,20 +1,17 @@
 ---
-title: Watchlight Studio
-toc: false
-subtitle: stest 
+toc: true
+type: docs
 ---
+## Welcome to the Studio
+Welcome to Watchlight, an independent studio that specializes in game development and software for small businesses and teams. Please look around and check back for updates!
 
+### What are we working on?
+{{< card link="projects-and-tools/echo" title="Current Project" icon="microphone" >}}
 
-
-## Explore
-
+### Explore
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-  {{< card link="devlog" title="Devlog" icon="user" >}}
-  {{< card link="projects" title="Projects" icon="user" >}}
+  {{< card link="about" title="About the Studio" icon="identification" >}}
+  {{< card link="devlog" title="Devlogs" icon="document" >}}
+  {{< card link="projects-and-tools/echo" title="Echo App" icon="microphone" >}}
+  {{< card link="projects-and-tools" title="All Projects" icon="folder" >}}
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).

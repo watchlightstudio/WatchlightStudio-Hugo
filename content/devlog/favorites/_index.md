@@ -1,8 +1,8 @@
 ---
-title: Favorites
+linkTitle: "Favorites"
 next: first-page
 type: docs
 weight: 1
 ---
-
-Our favorite devlogs and moments.
+## Favorite logs
+Page under work. Stop by later once we have more devlogs!

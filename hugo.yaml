@@ -18,9 +18,9 @@ markup:
 
 menu:
   main:
-    - name: Documents
-      pageRef: /docs
-      weight: 1
+    # - name: Documents
+    #   pageRef: /docs
+    #   weight: 1
     - name: About
       pageRef: /about
       weight: 2
@@ -52,7 +52,6 @@ menu:
       params:
         icon: github
 
-
 params:
   navbar:
     displayTitle: true
@@ -63,5 +62,5 @@ params:
     displayPoweredBy: true
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"

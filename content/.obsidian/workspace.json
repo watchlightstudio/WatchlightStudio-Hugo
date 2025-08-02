@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devlog/weeklies/devlog-2025-04-07.md",
+                "file": "projects-and-tools/echo/echo-installation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "devlog-2025-04-07"
+              "title": "echo-installation"
             }
           }
         ]
@@ -167,29 +167,40 @@
   },
   "active": "0e3351425962a780",
   "lastOpenFiles": [
-    "devlog/weeklies/_index.md",
+    "about/about-the-studio.md",
+    "about/about-the-dev.md",
+    "projects-and-tools/echo/echo-cloud-workflow.md",
+    "projects-and-tools/echo/echo-background.md",
+    "projects-and-tools/firefly.md",
+    "projects-and-tools/echo/_index.md",
+    "projects-and-tools/_index.md",
+    "_index.md",
+    "devlog/2025-devlogs/_index.md",
+    "devlog/2025-devlogs/Devlog-2025-07.md",
+    "devlog/2025-devlogs/Devlog-2025-06.md",
+    "devlog/2025-devlogs/Devlog-2025-05.md",
+    "devlog/2025-devlogs/Devlog-2025-04.md",
+    "devlog/_index.md",
+    "about/_index.md",
+    "devlog/favorites/_index.md",
     "devlog/weeklies/devlog-2025-04-07.md",
     "devlog/weeklies/devlog-2025-04-14.md",
-    "devlog/_index.md",
-    "devlog/favorites/_index.md",
+    "about/watchlight-values.md",
+    "about/dev-software-and-hardware.md",
+    "about/watchlight-origins.md",
+    "devlog/weeklies/_index.md",
+    "devlog/2025-devlogs",
+    "projects-and-tools/echo/echo-requirements.md",
+    "projects-and-tools/echo/echo-license.md",
+    "projects-and-tools/echo/echo-eula.md",
+    "projects-and-tools/echo/echo-performance.md",
+    "Pasted image 20250801173808.png",
+    "projects-and-tools/echo",
     "devlog/weeklies",
     "devlog/favorites",
-    "about/about-the-studio.md",
-    "_index.md",
-    "about/about-me.md",
-    "Untitled.md",
-    "about/_index.md",
     "devlog",
-    "projects",
-    "about/watchlight-values.md",
-    "about/watchlight-origins.md",
-    "docs/_index.md",
+    "projects-and-tools",
     "about",
-    "docs/first-page.md",
-    "zz Notes/Hextra formatting quirks.md",
-    "zz Notes/Hugo Hextra links.md",
-    "zz Notes",
-    "docs/folder/leaf.md",
-    "docs/folder/_index.md"
+    "zz Notes"
   ]
 }

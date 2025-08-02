@@ -1,16 +1,9 @@
 ---
-title: Devlog
-next: first-page
+linkTitle: "Devlogs"
 type: docs
 ---
-
-Witness the chronology of Watchlight Studio development
-
 ## Explore
 
-{{< cards >}}
-  {{< card link="about-the-studio" title="About the Studio" icon="book-open" >}}
-  {{< card link="about-the-dev" title="About the Dev" icon="user" >}}
-  {{< card link="watchlight-origins" title="Origins" icon="user" >}}
-  {{< card link="watchlight-values" title="Values" icon="user" >}}
-{{< /cards >}}
+  {{< card link="2025-devlogs" title="2025" icon="square-3-stack-3d" >}}
+  {{< card link="favorites" title="Favorites" icon="sparkles" >}}
+  {{< card link="/projects-and-tools/echo/" title="Current project" icon="document" >}}

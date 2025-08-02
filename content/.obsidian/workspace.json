@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects-and-tools/echo/echo-installation.md",
+                "file": "devlog/2025-devlogs/Devlog-2025-07.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "echo-installation"
+              "title": "Devlog-2025-07"
             }
           }
         ]
@@ -167,6 +167,11 @@
   },
   "active": "0e3351425962a780",
   "lastOpenFiles": [
+    "devlog/2025-devlogs/Devlog-2025-06.md",
+    "devlog/2025-devlogs/Devlog-2025-07.md",
+    "devlog/2025-devlogs/Devlog-2025-05.md",
+    "devlog/2025-devlogs/Devlog-2025-04.md",
+    "projects-and-tools/echo/echo-installation.md",
     "about/about-the-studio.md",
     "about/about-the-dev.md",
     "projects-and-tools/echo/echo-cloud-workflow.md",
@@ -176,10 +181,6 @@
     "projects-and-tools/_index.md",
     "_index.md",
     "devlog/2025-devlogs/_index.md",
-    "devlog/2025-devlogs/Devlog-2025-07.md",
-    "devlog/2025-devlogs/Devlog-2025-06.md",
-    "devlog/2025-devlogs/Devlog-2025-05.md",
-    "devlog/2025-devlogs/Devlog-2025-04.md",
     "devlog/_index.md",
     "about/_index.md",
     "devlog/favorites/_index.md",
@@ -193,7 +194,6 @@
     "projects-and-tools/echo/echo-requirements.md",
     "projects-and-tools/echo/echo-license.md",
     "projects-and-tools/echo/echo-eula.md",
-    "projects-and-tools/echo/echo-performance.md",
     "Pasted image 20250801173808.png",
     "projects-and-tools/echo",
     "devlog/weeklies",

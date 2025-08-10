@@ -1,5 +1,6 @@
 ---
 type: docs
+weight: 2
 ---
 ## Studio Origins
 Watchlight was borne from a passion for games and creative expression. During the day, I'm a full time engineer. All other hours, I'm an independent developer and creator.

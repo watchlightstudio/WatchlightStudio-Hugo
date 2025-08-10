@@ -2,7 +2,8 @@
 linkTitle: "03 Cloud/mobile"
 slug: "cloud"
 type: docs
-weight: 6
+weight: 7
+draft: true
 ---
 ## Cloud-based workflow and phone integration
 To get the most out of Echo, I setup my workflow so that I can record on my phone anywhere/anytime and it automatically gets processed via Echo. I subscribe to cloud-based storage using Box, but this approach should work for any cloud-service, including free options (Google Drive, OneDrive, etc). The below configuration does not require any additional paid apps, but I do pay for some pro/premium versions to help support the devs and reduce ads.

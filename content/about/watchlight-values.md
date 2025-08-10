@@ -1,5 +1,6 @@
 ---
 type: docs
+weight: 3
 ---
 ## Studio Values
 Watchlight is an independent studio and is proud to represent a few core values:

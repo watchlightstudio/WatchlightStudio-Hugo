@@ -1,6 +1,6 @@
 ---
 type: docs
-weight: 2
+weight: 4
 ---
 ## About the Dev
 I'm a solo developer operating out of Oregon. I've lived here with my wife and dog for the last five years and have loved every minute of it, seasonal rain included.

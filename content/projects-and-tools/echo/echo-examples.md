@@ -1,7 +1,8 @@
 ---
 linkTitle: "LLM Examples"
 type: docs
-weight: 2
+weight: 3
+draft: true
 ---
 ## Example output summaries
 Echo uses large language models for summarization. During initial install, the default model is [Mistral:7b](https://ollama.com/library/mistral), a lightweight, open source model that was trained largely on web, blog, and conversational text. In the Echo app, custom system prompts are used to create new derivatives of Mistral. These derivatives prioritize summaries that are written in first-person, as if blogged by the author, and follow a more natural, conversational cadence.
@@ -155,49 +156,3 @@ Overall, things are looking good, but there's still work to be done.
 - Will explore the option of using a virtual machine or Windows Sandbox to download and build new environments for testing the app's startup on a fresh machine.
 - Will include technical values such as file size, transcription time, etc.
 </details>
-
-### Llama2:13b
-<details>
-<summary>Click to view Llama2:13b summary</summary>
-
-#### Summary
-Hey there! Today was focused on tidying up the large language model scribe app and polishing the output format files. From a technical perspective, everything looks good, and I spent time refining the output format files to ensure they're in a strict format for daily, weekly, and monthly summaries. The monthly summary will give a high-level overview of activities over the month, followed by key highlights, progress, development, and reflection questions. Users can also tag specific sections for easy access.
-
-Besides these changes, I worked on some quality-of-life elements like a prep readiness check to ensure the configuration file is set up correctly, and a script that checks if all necessary dependencies are installed before launching virtual environments. These changes will make it easier for users to deploy and set up the app. I also added the ability to delete entries and restart the app if necessary.
-
-I'm sure there are other small details I forgot to mention, but these changes should improve the user experience. Next, I want to focus on ensuring that it starts up well on a fresh machine by downloading VirtualBox or Windows Sandbox and building new environments on new virtual machines. Documenting the setup procedures is also important, so I'll create written documentation to describe how the app functions and how to set it up. A video instruction of how to install and troubleshoot problems may also be helpful.
-
-Today, I worked on preparing a how-to guide for using the program. I cleaned up any unnecessary code and formatting inconsistencies, and added some technical values to the guide, such as total audio length, number of files analyzed, and estimated time saved. I also debated adding a tool that would give users a breakdown of their progress since initiating the program, including word count, hours saved, and number of dev logs written. While these aren't critical features, they could be fun and interesting to include. My goal for today is to finish QA testing, but we'll see how far I can get.
-
-#### Key notes
-##### Decisions & Observations
-- Decided to polish the output format files for the daily, weekly, and monthly summaries.
-- Shared similar formatting and structure across all three.
-- Used a strict format to ensure consistency.
-- Spent time working on quality of life elements, such as:
-- Prepared custom LLM models for automatic generation during setup.
-- Added the ability to delete entries, restart the app, and automatically refresh configuration files.
-- Assuring that it starts up well on a fresh machine through virtual environments or sandboxes.
-- Documenting the setup procedures with written documentation and video tutorials.
-- Refactoring the technical side of the project to clean up the code base and reduce duplication.
-- Decided to simplify and clean up the code for non-power users, focusing on minor polishing issues rather than extensive changes (09:23 - 09:42)
-- Consistency in formatting and naming
-- Removing unnecessary chunking methods
-- Cleaning up inconsistent formatting
-- Wanted to create a how-it-works guide, not just a how-to guide (09:44 - 10:00)
-- Explaining the technical values behind the program
-- Providing representative examples of output
-- Debating on adding a dedicated data tool for tracking progress (10:15 - 10:49)
-- Estimated time saved
-- Total audio length transcribed with Faster Whisper
-- Number of files analyzed since program initiation
-- Personal preferences for fun stats to include (11:16 - 11:26)
-- Total word count
-- Total time saved
-- Number of months covered
-- Number of times the program has been run
-- Today's goal is to focus on QA testing, with the intention of getting as far as possible (11:32 - 11:35)
-##### Issues & Next Steps
-- Next steps include:
-</details>
-

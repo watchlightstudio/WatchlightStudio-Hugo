@@ -1,7 +1,8 @@
 ---
 linkTitle: "EULA"
 type: docs
-weight: 8
+weight: 9
+draft: true
 ---
 ## END-USER LICENSE AGREEMENT
 Effective Date: 2025-07-01

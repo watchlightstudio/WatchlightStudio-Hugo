@@ -1,7 +1,8 @@
 ---
 linkTitle: "01 Requirements"
 type: docs
-weight: 4
+weight: 5
+draft: true
 ---
 ## Recommended hardware and software pre-requisites
 ### Operating system
@@ -24,7 +25,7 @@ In-app, you can change the default models to use OpenAI API if desired for faste
 | Any | 16-128GB  | Nvidia | 12-24GB | GPU           | GPU           | Yes            | Fast        |
 
 {{< callout type="info" >}}
-<span style="color:yellow;">**</span>Must use "medium" or smaller faster-whisper model to stay within VRAM limits.
+<span style="color:yellow;">**</span>Use "medium" or smaller faster-whisper model to comfortably stay within VRAM limits.
 {{< /callout >}}
 ### Software pre-requisites
 The only required SW prerequisites for Echo installation are Python and Ollama, which must be installed before running first time setup. If you want NVIDIA GPU acceleration, you must also download the CUDA Toolkit. If the toolkit is not installed, Echo will default to CPU-only support.

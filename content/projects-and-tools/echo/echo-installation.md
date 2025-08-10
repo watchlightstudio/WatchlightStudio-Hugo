@@ -1,9 +1,16 @@
 ---
 linkTitle: "02 Installation"
 type: docs
-weight: 5
+weight: 6
+draft: true
 ---
 ## To install Echo
+### Prerequisites
+Check [this page](/projects-and-tools/echo/echo-requirements) to make sure you've already installed all of the required software before proceeding. At this point you should have installed:
+- [Python for Windows](https://www.python.org/downloads/)  
+- [Ollama for Windows](https://ollama.com/download)  
+- [Cuda toolkit](https://developer.nvidia.com/cuda-downloads)  
+
 ### Basic installation instructions
 Echo was designed for quick, two-step deployment. First, run an a short script to prepare the correct environment. Second, select preferred app settings. That's it!
 - Download Echo.zip and unzip to the desired directory.
@@ -16,7 +23,7 @@ Echo was designed for quick, two-step deployment. First, run an a short script t
 	- "Advanced" setup allows for additional customization, folders, model settings, etc. All settings can be changed within the app, so don't sweat it too much.
 	- Once wizard setup is complete, the app will automatically restart. It's OK to close the terminal window now.
 
-{{< callout type="warning" >}}
+{{< callout type="info" >}}
 A short background script will also check whether an NVIDIA GPU is detected and available. If none is detected, a warning message will appear about limited settings.
 {{< /callout >}}
 

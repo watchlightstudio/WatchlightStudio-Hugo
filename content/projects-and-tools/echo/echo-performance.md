@@ -1,10 +1,11 @@
 ---
 linkTitle: "Performance Data"
 type: docs
-weight: 3
+weight: 4
+draft: true
 ---
 {{< callout type="info" >}}
-There's an [in-app tool](/projects-and-tools/echo/echo-menu/#energy--savings) for measuring transcription and summarization speed.  
+There's an [in-app tool](/projects-and-tools/echo/echo-menu/#echo-speed-check) for measuring transcription and summarization speed.  
 
 To contribute to this page, send your own hardware config and performance data to contact@watchlightstudio.com
 {{< /callout >}}
@@ -24,14 +25,26 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 ### Example performance
 **Local LLM Summarization using a NVIDIA 3090 FE GPU (24GB VRAM):**
 
-|                   | **Mistral**    | **Llama2**     | **LLama2:7B**  |
-| ----------------- | -------------- | -------------- | -------------- |
-| **Run 1**         | 115.3          | 107.7          | 110.7          |
-| **Run 2**         | 92.2           | 128.5          | 123.9          |
-| **Run 3**         | 113.2          | 41.5           | 36.8           |
-| **Run 4**         | 116.2          | 99.0           | 130.5          |
-| **Run 5**         | 113.7          | 130.1          | 133.7          |
-| **Average (TPS)** | 110.1 +/- 10.1 | 101.4 +/- 36.0 | 107.1 +/- 40.3 |
+|                   | **Mistral**    | **Llama2**     |
+| ----------------- | -------------- | -------------- |
+| **Run 1**         | 115.3          | 107.7          |
+| **Run 2**         | 92.2           | 128.5          |
+| **Run 3**         | 113.2          | 41.5           |
+| **Run 4**         | 116.2          | 99.0           |
+| **Run 5**         | 113.7          | 130.1          |
+| **Average (TPS)** | 110.1 +/- 10.1 | 101.4 +/- 36.0 |
+
+**Local LLM Summarization using a NVIDIA 3060 Laptop GPU (6GB VRAM):**
+
+|                   | **Mistral**    | **Llama2**     |
+| ----------------- | -------------- | -------------- |
+| **Run 1**         | 25.2           | 18.8           |
+| **Run 2**         | 17.7           | 20.0           |
+| **Run 3**         | 24.6           | 20.4           |
+| **Run 4**         | 17.2           | 19.4           |
+| **Run 5**         | 17.7           | 18.5           |
+| **Average (TPS)** | 20.4 +/- 4.0   | 19.4 +/- 0.8   |
+
 ## Transcription performance (speed multiplier)
 In-app transcription performance is measured as a simple ratio of transcription speed vs audio file length. If it takes 18s to transcribe a 180s audio file, the multiplier is 10x. Similar to TPS, more efficient hardware gives higher multipliers, which reduces the time required to perform analysis, energy, and cost.
 
@@ -51,18 +64,36 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 ### Example performance
 **Local transcription using a NVIDIA 3090 FE GPU (24GB VRAM):**
 
-|                        | **Base**     | **Small**    | **Medium**   | **Larve-v2** | **Large-v3** |
+|                        | **Base**     | **Small**    | **Medium**   | **Large-v2** | **Large-v3** |
 | ---------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | **Run 1**              | 53.3         | 37.7         | 20.7         | 20.7         | 15.6         |
 | **Run 2**              | 64.1         | 45.6         | 27.8         | 22.5         | 18.5         |
 | **Run 3**              | 64.7         | 45.4         | 30.1         | 22.5         | 18.1         |
 | **Run 4**              | 70.1         | 45.4         | 28.0         | 18.4         | 18.1         |
-| **Average** | 63.1 +/- 7.0 | 43.5 +/- 3.9 | 26.7 +/- 4.1 | 21.0 +/- 1.9 | 17.6 +/- 1.3 |
+| **Average**            | 63.1 +/- 7.0 | 43.5 +/- 3.9 | 26.7 +/- 4.1 | 21.0 +/- 1.9 | 17.6 +/- 1.3 |
+
+**Local transcription using a NVIDIA 3060 Laptop GPU (6GB VRAM):**
+
+|                        | **Base**     | **Small**    | **Medium**   | **Large-v2** | **Large-v3** |
+| ---------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| **Run 1**              | 33.5         | 23.1         | 14.8         | 9.7          | 11.2         |
+| **Run 2**              | 38.6         | 24.3         | 14.6         | 7.4          | 11.6         |
+| **Run 3**              | 36.9         | 24.0         | 15.2         | 11.6         | 11.6         |
+| **Run 4**              | 37.2         | 24.0         | 13.7         | 12.6         | 11.4         |
+| **Average**            | 36.6 +/- 2.2 | 24.0 +/- 0.7 | 14.5 +/- 0.6 | 10.3 +/- 2.3 | 11.4 +/- 0.2 |
 
 **Local transcription using an AMD Ryzen 9 7900 (64GB DDR5):**
 
-|                        | **Base** | **Small** | **Medium** | **Larve-v2** | **Large-v3** |
+|                        | **Base** | **Small** | **Medium** | **Large-v2** | **Large-v3** |
 | ---------------------- | -------- | --------- | ---------- | ------------ | ------------ |
 | **Run 1**              | 25.2     | 9.4       | 3.6        | 1.6          | 1.6          |
 | **Run 2**              | 23.3     | 7.6       | 2.8        | 1.6          | 1.3          |
-| **Average** | 24.2     | 8.5       | 3.2        | 1.6          | 1.4          |
+| **Average**            | 24.2     | 8.5       | 3.2        | 1.6          | 1.4          |
+
+**Local transcription using an AMD Ryzen 9 5900HS (40GB DDR4):**
+
+|                        | **Base** | **Small** | **Medium** | **Large-v2** | **Large-v3** |
+| ---------------------- | -------- | --------- | ---------- | ------------ | ------------ |
+| **Run 1**              | 12.8     | 5.3       | 1.8        | 1.1          | 1.2          |
+| **Run 2**              | 14.1     | 5.2       | 1.9        | 1.1          | 1.2          |
+| **Average**            | 13.4     | 5.2       | 1.8        | 1.1          | 1.2          |

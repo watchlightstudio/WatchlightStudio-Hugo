@@ -1,7 +1,8 @@
 ---
 linkTitle: "Licenses"
 type: docs
-weight: 9
+weight: 10
+draft: true
 ---
 ## LICENSE LIST
 Package: requests  

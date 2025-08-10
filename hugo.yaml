@@ -1,5 +1,6 @@
 # Hugo configuration file
 title: Watchlight Studio
+baseURL: "https://www.watchlightstudio.com/"  # ✅ Set correct production URL
 
 # import hextra as module
 module:
@@ -18,9 +19,6 @@ markup:
 
 menu:
   main:
-    # - name: Documents
-    #   pageRef: /docs
-    #   weight: 1
     - name: About
       pageRef: /about
       weight: 2

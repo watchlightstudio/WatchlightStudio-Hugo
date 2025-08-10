@@ -2,6 +2,7 @@
 linkTitle: "Background"
 type: docs
 weight: 1
+draft: true
 ---
 ## Making "Echo"
 ### A private project manager for everything

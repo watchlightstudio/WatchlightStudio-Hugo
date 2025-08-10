@@ -1,11 +1,37 @@
 ---
-linkTitle: "Menu and functions"
+linkTitle: "Menu Details & Help"
 type: docs
-weight: 7
+weight: 8
+draft: true
 ---
-## Menu modes
-The menu can be toggled between "basic" and "advanced," which controls whether the advanced settings are shown. Below, select individual menu actions to learn more.
-![menus](/images/menus.png)
+## Menu Details & Help
+### Status indicators
+<div style="display: flex; gap: 100px; text-align: center;">
+    <div>
+        <div>Disabled</div>
+        <img src="/images/scribe_idle.ico" alt="Idle" style="max-width: 50px; height: auto;">
+    </div>
+    <div>
+        <div>Enabled</div>
+        <img src="/images/scribe_active.ico" alt="Active" style="max-width: 50px; height: auto;">
+    </div>
+    <div>
+        <div>Busy</div>
+        <img src="/images/scribe_busy.ico" alt="Busy" style="max-width: 50px; height: auto;">
+    </div>
+    <div>
+        <div>Download</div>
+        <img src="/images/scribe_downloading.ico" alt="Download" style="max-width: 50px; height: auto;">
+    </div>
+</div>
+
+| **Status**   | **Behavior**                                             |
+|--------------|----------------------------------------------------------|
+| **Disabled** | Echo is disabled and idle                                |
+| **Enabled**  | Echo is enabled and watching for new files               |
+| **Busy**     | Echo is actively transcribing, summarizing, or uploading |
+| **Download** | Echo is downloading a LLM or transcription model         |
+
 ### Basic settings
 <details>
 <summary>Echo - "User Mode" [Local/OpenAI]</summary>
@@ -55,9 +81,9 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 		- After selecting the custom prompt, summarization will start, using either Local or OpenAI resources depending on current settings.
 		- Once summarization is complete, name the file and select "Save." Files will automatically be moved to the user-selected "Custom" folder path. 
 
-	{{< callout type="warning" >}}
-	The custom summary function does not automatically apply Tags, prepare Keynotes, or append Transcripts from the selected files. 
-	{{< /callout >}}
+		{{< callout type="warning" >}}
+		The custom summary function does not automatically apply Tags, prepare Keynotes, or append Transcripts from the selected files. 
+		{{< /callout >}}
 
 - #### Run weekly summary
 	- If selected, will force the app to check whether any new weekly summaries are available for generation.
@@ -73,9 +99,9 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 </details>
 
 <details>
-<summary>Modes & Custom Prompts</summary>
+<summary>Modes & Prompts</summary>
 
-### Modes & Custom Prompts
+### Modes & Prompts
 - #### Switch mode
 	- Select the currently active User Mode. Available and correctly configured modes can be selected from the dropdown menu. Changing the active User Mode will update the current "Echo" task status.
 	- All new summaries will use the newly selected mode. Existing summaries from the prior user mode will not be overwritten.
@@ -98,7 +124,7 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 	- To "Remove" a custom user mode, simply select the desired mode from the dropdown and complete confirmation prompting. Removing a custom user mode does not delete or modify the matching system prompts or taglist files.
 	- To "Edit" a custom user mode, navigate to the desired mode from the dropdown menu.
 	- Using the GUI, make any necessary modifications and/or select updated system prompts and taglist files (see "Add" custom user mode for details). Once all fields exist and the name is unique, "Save" edits to the user mode.
-- #### Edit custom prompts
+- #### Edit prompts
 	- Add, remove, or edit custom prompts for the "Run custom summary" function. These custom prompts are meant as lightweight prompting options that allow the user run one-off summaries with flexibility and without preparing system prompts or custom models. Some prompt tuning via "Edit" may be required to get the desired output. 
 	- Select Add/Remove/Edit from the first dropdown menu.
 	- To "Add" a new custom prompt, provide a custom name and prompting instructions for each step of summarization. The summarization script "chunks" the text-to-be-summarized into more manageable pieces, and so you must provide both an initial prompt (for the first chunk) and chunk prompts (to for continued summarization). All prompts must contain "{chunk}" at the end of the prompt in order for the script to ingest appropriately. See autofill examples for formatting details.
@@ -110,20 +136,11 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 	- To "Remove" a prompt, simply select the desired prompt from the dropdown and complete confirmation screens. Removing the custom prompt deletes all prompting instructions and cannot be undone.
 	- To "Edit" a custom prompt, navigate to the desired prompt from the dropdown menu.
 	- Using the GUI, make any necessary modifications to the prompts or name. Once all fields exist and the name is unique, "Save" edits to the custom prompt.
-- ### Edit file preferences
-	- Customize the output summary files from "Echo," including output filename, tags, keynotes, and appended transcripts.
-	- To change filename, simply enter the preferred name. The GUI will automatically update to show what the new filesname will look like. Currently, it is impossible to remove or modify the appended dates/timestamps and (Weekly)/(Monthly) labels.
-
-	{{< callout type="warning" >}}
-	When a new filename is selected, the user must confirm deletion of cached summary files within the App folder. This does not impact the saved files in the users folders or Notion uploads (if enabled). Canceling out will not delete any files and will not save the updated filename.  
-	
-	Once "Confirm" is selected, the cached files will be deleted and Echo will automatically start re-summarizing all existing transcripts, weekly, and monthly summaries with the new filename. Please note, this may take a while depending on the number of files to be re-summarized.
-	{{< /callout >}}
-
-	- In addition to filename, the user can toggle the output format of the various summaries to include or exclude "Tags," "Keynotes," and "Transcripts." Changing these toggles will not reset cached files. These new settings will only apply to newly generated summaries.
 
 	{{< callout type="info" >}}
-	Disabling "Keynotes" will reduce both input and output tokens required to perform summarization tasks.  However, disabling "Transcripts" does not impact the number of required tokens.
+	If the mode is set to "local," all currently installed Ollama models will be shown in the dropdown menu. To install additional models, either do so directly via Ollama or by entering the desired model in [Set Ollama model](#set-ollama-model). Using the in-app method will set the default Echo summarization model to whatever is entered, so you may need to reset the original model after download is complete.
+
+	If the mode is set to "openai," you may select from the dropdown menu or enter alternative [OpenAI](https://platform.openai.com/docs/models) models of your choosing.
 	{{< /callout >}}
 
 - #### Edit tags
@@ -146,7 +163,23 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 	The summary file type in the Notion database is set based on the folder path. If Notion is enabled, it is strongly recommended to set separate folders for individual, weekly, monthly, and custom outputs for clear labeling. If a single folder is used for multiple summary types, Notion will report "unknown" summary type.
 	{{< /callout >}}
 
-- #### Toggle autosync
+- #### Set preferences
+	- Customize the output summary files from "Echo," including output filename, tags, keynotes, and appended transcripts.
+	- To change filename, simply enter the preferred name. The GUI will automatically update to show what the new filesname will look like. Currently, it is impossible to remove or modify the appended dates/timestamps and (Weekly)/(Monthly) labels.
+
+	{{< callout type="warning" >}}
+	When a new filename is selected, the user must confirm deletion of cached summary files within the App folder. This does not impact the saved files in the users folders or Notion uploads (if enabled). Canceling out will not delete any files and will not save the updated filename.  
+	
+	Once "Confirm" is selected, the cached files will be deleted and Echo will automatically start re-summarizing all existing transcripts, weekly, and monthly summaries with the new filename. Please note, this may take a while depending on the number of files to be re-summarized.
+	{{< /callout >}}
+
+	- In addition to filename, the user can toggle the output format of the various summaries to include or exclude "Tags," "Keynotes," and "Transcripts." Changing these toggles will not reset cached files. These new settings will only apply to newly generated summaries.
+
+	{{< callout type="info" >}}
+	Disabling "Keynotes" will reduce both input and output tokens required to perform summarization tasks.  However, disabling "Transcripts" does not impact the number of required tokens.
+	{{< /callout >}}
+
+- #### Set autosync
 	- Enable/disable Autosync functionality. It is recommended to enable Autosync.
 	- If Autosync is enabled:
 		- Summaries generated by Echo are automatically pushed to user folders and overwrite files of the same name.
@@ -161,14 +194,20 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 			- Any manual edits to the Notion database entries will be overwritten if 1) the user makes separate edits to the original summary file or 2) if in-app "cached files" are deleted and regenerated (very uncommon and requires manual confirmation).
 		{{< /callout >}}
 
+- #### Notion re-sync
+	- Manually force a re-sync of user files to Notion database based on most recent timestamp.
+
+		{{< callout type="warning" >}}
+		If the files in the user directories have been manually modified or updated, these changes will overwrite current Notion database files.
+		{{< /callout >}}
 </details>
 
 <details>
 <summary>Integrations</summary>
 
-###Integrations
-- #### OpenAI API key
-	- This function allows the user to set an API key for OpenAI, which is required to use OpenAI summarization or transcription functionality. Before setting up, create an OpenAI account and add balance to the account.
+### Integrations
+- #### OpenAI API
+	- Set an API key for OpenAI, which is required to use OpenAI summarization or transcription functionality. Before setting up, create an OpenAI account and add balance to the account.
 	- To setup:
 		- Visit [OpenAI](https://platform.openai.com/api-keys) for an API key.
 		- In the upper right hand corner, select "Create a new secret key" and follow prompting.
@@ -209,6 +248,7 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 	{{< /callout >}}
 	
 	- If performed correctly, the app will restart and summary files will automatically start updating in the Notion database.
+
 - #### Obsidian setup
 	- The Echo app was originally designed for [Obsidian](https://obsidian.md/download) users. Simply set the file directory paths for summary outputs to the desired Obsidian Vault. No additional actions are required.
 </details>
@@ -217,19 +257,19 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 <summary>LLM Settings</summary>
 
 ### LLM Settings
-- #### Local/OpenAI settings
-	- Set or edit the default summarization and transcription settings.
+- #### Echo model settings
+	- Set or edit the default summarization and transcription settings for Echo.
 
-		{{< callout type="info" >}}
-		During app start-up, Echo quickly checks for the presence of an NVIDIA GPU. If a compatible NVIDIA GPU is not detected, the user can select either OpenAI or CPU-only local fallback.
-		{{< /callout >}}
+	{{< callout type="info" >}}
+	During app start-up, Echo quickly checks for the presence of an NVIDIA GPU. If a compatible NVIDIA GPU is not detected, the user can select either OpenAI or CPU-only local fallback.
+	{{< /callout >}}
 
 	- Summarization options:
 		- If summarization is set to "Local," Echo will use custom Ollama models, which are generated by the App during first time setup. By default, the Ollama base model is Mistral, which is lightweight and performant for basic summarization tasks.
 		- If summarization is set to "OpenAI," the default model is set to GPT3.5-turbo, which is a good balance of summarization quality, speed, and token cost (as of July 2025).
 
 		{{< callout type="info" >}}
-		Alternative local models can be set using [Ollama models](#ollama-models).
+		Alternative local models can be set using [Ollama models](#set-ollama-model). Alternate [OpenAI](https://platform.openai.com/docs/models) models can be manually entered by writing-in the dropdown menu.
 		{{< /callout >}}
 
 	- Transcription options:
@@ -237,7 +277,7 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 			- The transcription models include base, medium, large, etc.
 
 			{{< callout type="info" >}}
-			The highest fidelity model is large_v3, which can be resource intensive. Smaller models, like "medium" may be more practical on lower-end hardware if the transcription speed is too slow (see [Energy & Savings](#energy--savings) for in-app testing method).
+			The highest fidelity model is large_v3, which can be resource intensive. Smaller models, like "medium" may be more practical on lower-end hardware if the transcription speed is too slow (see [Echo speed check](#echo-speed-check) for in-app testing method).
 			{{< /callout >}}
 
 			- The transcription compute options are either cuda-based (i.e. GPU) or CPU-based. Cuda will be selected by default for most users and is strongly preferred if an NVIDIA GPU is available.
@@ -247,10 +287,11 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 			Transcription via OpenAI can be expensive, especially for large files.
 			{{< /callout >}}
 
-- #### Ollama models
-	- Select different Ollama models as the "base" model, for testing and development.
+- #### Set Ollama model
+	- Select different Ollama model as the "base" model, for testing and development.
 	- By default, Mistral 7B is used as the base model. Three custom models are generated from the base model, using the provided, in-app system prompt files. If the user wants to test alternates (i.e. Deepseek, Mixtral, Llama2, etc), they can enter or select within this dialog page.
 	- Currently installed Ollama models (cmd, "ollama list") are shown in the dropdown menu. New models, not yet downloaded, can be entered manually but must explicitly match one of the models listed on the [Ollama page](https://ollama.com/search).
+	- If a new model is selected that has not yet been downloaded, the user must approve of the 3rd party download.
 
 	{{< callout type="info" >}}
 	In testing and development, Mistral consistently generated the highest quality summarization results and is strongly recommended. It is relatively lightweight, compared to many alternatives, and is operable on most hardware.
@@ -262,9 +303,9 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 <summary>Tools & Reports</summary>
 
 ### Tools & Reports
-- #### App statistics
+- #### Echo statistics
 	- A simple dialog page that shows the user app statistics and usage. Values can be reset, if desired.
-- #### Energy & savings
+- #### Echo speed check
 	- An in-app calculator that allows the user to test in-app transcription and summarization speeds, as well as estimate cost of running locally versus using OpenAI servers.
 	- To test transcription speed, select the appropriate button. A short, 3 minute test file will be transcribed and the time taken to perform transcription is used to calculate a speed multiplier (i.e. 1 minute to transcribe 3 minutes = 3x). Run this test twice to get more accurate values.
 
@@ -286,6 +327,8 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 <summary>App Control</summary>
 
 ### App Control
+- #### Setup wizard
+	- Reset all settings and perform first-time setups again.
 - #### License
 	- Add or update the Echo app license. The app is free to use without a license, but please do not proliferate or share. If you find value in Echo, please consider supporting the developer.
 	- If the app license is absent or invalid, the user will be notified with occasional reminders about activation and total usage.
@@ -301,7 +344,7 @@ The menu can be toggled between "basic" and "advanced," which controls whether t
 		- Clear all in-app cached summaries. This is not a typical action and will require re-summarization of all transcripts. If Autosync is enabled, newly generated summaries will overwrite old files and manual edits will be lost.
 	- Clear transcripts
 		- Clear all in-app cached transcripts. This is not a typical action. There will be no impact to summaries or to user files. No data will be ovewritten.
-- Log files
+- View logs
 	- Access to the Echo app logs. If errors occur, logs may be useful for diagnosing the root cause.
 - Restart
 	- Tray app restart. In the event that multiple functions are greyed out, restarting the app can often clear errors.

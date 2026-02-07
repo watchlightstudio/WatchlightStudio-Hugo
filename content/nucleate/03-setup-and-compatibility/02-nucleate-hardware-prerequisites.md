@@ -3,6 +3,7 @@ linkTitle: "Hardware"
 type: docs
 weight: 2
 slug: "hardware"
+url: "/nucleate/setup-and-compatibility/hardware"
 ---
 ## Recommended hardware
 ### Operating system

@@ -3,6 +3,7 @@ linkTitle: "FFmpeg/FFprobe"
 type: docs
 weight: 5
 slug: "ffmpeg-ffprobe"
+url: "/nucleate/setup-and-compatibility/ffmpeg-ffprobe"
 ---
 ## Installing FFmpeg for Nucleate
 

@@ -3,6 +3,7 @@ linkTitle: "Using Nucleate"
 type: docs
 weight: 4
 slug: "help"
+url: "/nucleate/help"
 ---
 ## Make it Yours
 Once Nucleate is set up, it works quietly in the background — but there’s a lot of depth available if you want it.

@@ -3,6 +3,7 @@ linkTitle: "Navigate"
 type: docs
 weight: 1
 slug: "menu"
+url: "/nucleate/help/menu"
 ---
 ## Menu Details & Help
 ### Status indicators

@@ -3,6 +3,7 @@ linkTitle: "Setup & compatibility"
 type: docs
 weight: 3
 slug: "setup-and-compatibility"
+url: "/nucleate/setup-and-compatibility"
 ---
 ## Get Running
 Nucleate is built to run on your hardware, on your terms. Whether you’re using local models, OpenAI services, or a mix of both, setup is straightforward and flexible.

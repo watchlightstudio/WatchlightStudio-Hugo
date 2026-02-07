@@ -3,6 +3,7 @@ linkTitle: "Talking out loud"
 type: docs
 weight: 2
 slug: "talking-out-loud"
+url: "/nucleate/help/talking-out-loud"
 ---
 ### Adjusting to talking out loud
 

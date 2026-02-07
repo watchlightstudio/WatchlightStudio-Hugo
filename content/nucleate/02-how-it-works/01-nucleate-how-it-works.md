@@ -3,6 +3,7 @@ linkTitle: "Core behavior"
 type: docs
 weight: 2
 slug: "core-behavior"
+url: "/nucleate/how-it-works/core-background"
 ---
 ## How it works
 ### Nucleate

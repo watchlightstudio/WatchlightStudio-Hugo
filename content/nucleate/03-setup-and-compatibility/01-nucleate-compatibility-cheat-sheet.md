@@ -3,6 +3,7 @@ linkTitle: "Compatibility"
 type: docs
 weight: 1
 slug: "compatibility-cheat-sheet"
+url: "/nucleate/setup-and-compatibility/compatibility-cheat-sheet"
 ---
 ## Compatibility Cheat Sheet
 This page provides a quick overview of which features are available on different hardware configurations. These indicators describe **capability and support**, not performance guarantees.

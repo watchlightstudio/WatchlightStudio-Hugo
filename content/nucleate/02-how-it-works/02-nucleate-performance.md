@@ -3,6 +3,7 @@ linkTitle: "Performance"
 type: docs
 weight: 4
 slug: "performance"
+url: "/nucleate/how-it-works/performance"
 ---
 {{< callout type="info" >}}
 There's an [in-app tool](/projects-and-tools/nucleate/nucleate-menu/#nucleate-speed-check) for measuring transcription and summarization speed.  

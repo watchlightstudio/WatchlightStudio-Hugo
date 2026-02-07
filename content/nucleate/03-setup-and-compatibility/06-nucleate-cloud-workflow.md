@@ -4,6 +4,7 @@ slug: "cloud"
 type: docs
 weight: 6
 slug: "cloud"
+url: "/nucleate/setup-and-compatibility/cloud"
 ---
 ## Cloud-based workflow and phone integration
 To get the most out of Nucleate, I setup my workflow so that I can record on my phone anywhere/anytime and it automatically gets picked up into the core process. I subscribe to cloud-based storage using Box, but this approach works for any cloud-service, including free options (Google Drive, OneDrive, etc). The below configuration does not require any additional paid apps, but I do pay for some pro/premium versions to help support the devs and reduce ads.

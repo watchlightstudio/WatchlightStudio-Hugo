@@ -3,6 +3,7 @@ linkTitle: "How it works"
 type: docs
 weight: 2
 slug: "how-it-works"
+url: "/nucleate/how-it-works"
 ---
 ## From Audio to Insight
 Nucleate follows a simple but powerful pipeline: audio goes in, structured notes come out — with no dashboards, no micromanagement, and no manual cleanup.

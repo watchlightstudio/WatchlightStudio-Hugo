@@ -3,6 +3,7 @@ linkTitle: "Why Nucleate?"
 type: docs
 weight: 2
 slug: "compare"
+url: "/nucleate/overview/compare"
 ---
 ## Who Nucleate _Is Not_ Built For
 

@@ -3,6 +3,7 @@ linkTitle: "Dev journey"
 type: docs
 weight: 5
 slug: "journey"
+url: "/nucleate/overview/journey"
 ---
 ## Humble beginnings
 

@@ -3,6 +3,7 @@ linkTitle: "Installation"
 type: docs
 weight: 4
 slug: "installation"
+url: "/nucleate/setup-and-compatibility/installation"
 ---
 ## To install Nucleate
 ### Prerequisites

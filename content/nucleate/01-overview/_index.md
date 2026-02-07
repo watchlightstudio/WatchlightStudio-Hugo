@@ -3,6 +3,7 @@ linkTitle: "Overview"
 type: docs
 slug: "overview"
 weight: 1
+url: "/nucleate/overview"
 ---
 ## Meet Nucleate
 Nucleate is a local-first, AI-powered note engine designed to turn spoken thoughts into structured, actionable notes — automatically.

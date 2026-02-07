@@ -3,6 +3,7 @@ linkTitle: "Software"
 type: docs
 weight: 3
 slug: "software"
+url: "/nucleate/setup-and-compatibility/software"
 ---
 ## Recommended software
 

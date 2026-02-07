@@ -3,6 +3,7 @@ linkTitle: "Legal"
 type: docs
 slug: "legal"
 weight: 5
+url: "/nucleate/legal"
 ---
 ## The Fine Print
 Here you’ll find Nucleate’s license, terms, and third-party attributions.

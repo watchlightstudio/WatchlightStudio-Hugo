@@ -1,8 +1,8 @@
 ---
-linkTitle: "Favorites"
+linkTitle: "2026 Devlogs"
 next: first-page
 type: docs
-weight: 1
+weight: 2
 ---
 ## Favorite logs
 Page under work. Stop by later once we have more devlogs!

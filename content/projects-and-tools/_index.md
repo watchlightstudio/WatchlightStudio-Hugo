@@ -1,9 +1,10 @@
 ---
-linkTitle: "Watchlight Projects"
+linkTitle: "Projects"
 next: first-page
 type: docs
+weight: 4
 ---
 ## Explore
 
-  {{< card link="echo" title="Echo by Watchlight" icon="microphone" >}}
   {{< card link="firefly" title="Firefly game" icon="beaker" >}}
+  {{< card link="pixel-art" title="PixelCAD" icon="photograph" >}}

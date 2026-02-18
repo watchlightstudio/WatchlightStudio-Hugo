@@ -3,7 +3,6 @@ linkTitle: "Licenses"
 type: docs
 weight: 10
 slug: "license"
-url: "/nucleate/legal/license"
 ---
 ## LICENSE LIST
 

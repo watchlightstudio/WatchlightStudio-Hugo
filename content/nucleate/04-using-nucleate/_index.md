@@ -12,6 +12,7 @@ This section explains day-to-day usage, menus, automation toggles, and customiza
 
 >
 {{< cards >}}
-  {{< card link="01-nucleate-menu" title="Menu Details & Help" icon="adjustments-horizontal" >}}
-  {{< card link="02-talking-out-loud" title="Talking out Loud" icon="microphone" >}}
+  {{< card link="/nucleate/help/menu" title="Menu Details & Help" icon="adjustments-horizontal" >}}
+  {{< card link="/nucleate/help/talking-out-loud" title="Talking Out Loud" icon="microphone" >}}
+  {{< card link="/nucleate/help/custom-user-modes" title="Custom User Modes" icon="user-circle" >}}  
 {{< /cards >}}

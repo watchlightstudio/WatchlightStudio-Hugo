@@ -12,10 +12,10 @@ This section covers installation, supported platforms, hardware and software req
 
 >
 {{< cards >}}
-{{< card link="01-nucleate-compatibility-cheat-sheet" title="Compatibility cheat sheet" icon="document" >}}
-  {{< card link="02-nucleate-hardware-prerequisites" title="Hardware and OS" icon="cog" >}}
-  {{< card link="03-nucleate-software-prerequisites" title="Software" icon="code" >}}
-  {{< card link="04-nucleate-installation" title="Installation" icon="square-3-stack-3d" >}}
-  {{< card link="05-nucleate-ffmpeg-installation" title="FFmpeg/FFprobe" icon="microphone" >}}
-  {{< card link="06-nucleate-cloud-workflow" title="Cloud/mobile" icon="device-phone-mobile" >}}
+{{< card link="/nucleate/setup-and-compatibility/compatibility-cheat-sheet" title="Compatibility cheat sheet" icon="document" >}}
+  {{< card link="/nucleate/setup-and-compatibility/hardware" title="Hardware and OS" icon="cog" >}}
+  {{< card link="/nucleate/setup-and-compatibility/software" title="Software" icon="code" >}}
+  {{< card link="/nucleate/setup-and-compatibility/installation" title="Installation" icon="square-3-stack-3d" >}}
+  {{< card link="/nucleate/setup-and-compatibility/ffmpeg-ffprobe" title="FFmpeg/FFprobe" icon="microphone" >}}
+  {{< card link="/nucleate/setup-and-compatibility/cloud" title="Cloud/mobile" icon="device-phone-mobile" >}}
 {{< /cards >}}

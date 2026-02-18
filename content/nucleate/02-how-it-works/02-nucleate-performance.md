@@ -6,7 +6,7 @@ slug: "performance"
 url: "/nucleate/how-it-works/performance"
 ---
 {{< callout type="info" >}}
-There's an [in-app tool](/projects-and-tools/nucleate/nucleate-menu/#nucleate-speed-check) for measuring transcription and summarization speed.  
+There's an [in-app tool](/nucleate/help/menu/#performance-calculator) for measuring transcription and summarization speed.  
 
 To contribute to this page, send your own hardware config and performance data to contact@watchlightstudio.com
 {{< /callout >}}
@@ -43,7 +43,7 @@ In-app transcription performance is measured as a simple ratio of transcription 
 
 There are two possible backends for transcription, Whisper and Faster-Whisper. Whisper is natively compatible on both Mac and Windows and enables hardware acceleration on both. Faster-Whisper is optimized on Windows and enables slight speed improvements for GPU-accelerated support and substantial improvements on CPU-only transcription.
 	{{< callout type="info" >}}
-	Whisper requires FFmpeg to be installed per the python openai-whisper dependency. I cannot ship FFmpeg as part of the app, but it is easily downloaded [following these instructions.](05-nucleate-ffmpeg-installation.md)
+	Whisper requires FFmpeg to be installed per the python openai-whisper dependency. I cannot ship FFmpeg as part of the app, but it is easily downloaded [following these instructions.](/nucleate/setup-and-compatibility/ffmpeg-ffprobe)
 	{{< /callout >}}
 
 There are several different models that can be used on both Whisper and Faster-Whisper, including: base, small, medium, large-v3, and large-v3-turbo. In general, there is a tradeoff between model size and accuracy, where larger models are more accurate but generally slower. Because Nucleate performs summarization on transcripts, minor errors are typically ignored or 'washed out' by the LLM. Medium, large-v3, and large-v3-turbo are all similarly performant. The default model is set to "medium" for Nucleate Pro users if adequate VRAM or RAM is detected.

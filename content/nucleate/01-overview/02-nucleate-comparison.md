@@ -53,7 +53,7 @@ Nucleate solves a different problem than most transcription tools. The compariso
 |Markdown output|✅ Native|❌ No|❌ No|❌ No|
 |Obsidian / Notion sync|✅ Yes|❌ No|❌ No|⚠️ Native only|
 |Data ownership|✅ Your machine|❌ Cloud|❌ Cloud|❌ Cloud|
-|Subscription required|❌ No|✅ Yes|✅ Yes|✅ Yes|
+|Subscription required|✅ Nope!|❌ Yes|❌ Yes|❌ Yes|
 
 _Product comparisons are approximate and intended for illustrative purposes only. Actual functionality may differ based on configuration, updates, or usage patterns. All trademarks and product names belong to their respective owners._
 

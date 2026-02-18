@@ -12,7 +12,7 @@ This section covers the _why_ behind Nucleate: where it came from, what problem 
 
 >
 {{< cards >}}
-  {{< card link="01-nucleate-background" title="Background" icon="light-bulb" >}}
-  {{< card link="02-nucleate-comparison" title="Why Nucleate?" icon="information-circle" >}}
-  {{< card link="03-nucleate-joruney" title="Dev Journey" icon="code" >}}
+  {{< card link="/nucleate/overview/background" title="Background" icon="light-bulb" >}}
+  {{< card link="/nucleate/overview/compare" title="Why Nucleate?" icon="information-circle" >}}
+  {{< card link="/nucleate/overview/journey" title="Dev Journey" icon="code" >}}
 {{< /cards >}}

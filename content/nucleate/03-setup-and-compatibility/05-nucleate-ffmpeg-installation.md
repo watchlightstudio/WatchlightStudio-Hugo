@@ -10,7 +10,7 @@ url: "/nucleate/setup-and-compatibility/ffmpeg-ffprobe"
 ### Prerequisites
 - **Operating System:** Windows or macOS 
 - **Administrator privileges** to install binaries and update your PATH  
-- Optional but recommended: verify that your machine meets the [hardware requirements](02-nucleate-hardware-prerequisites.md) for local transcription.
+- Optional but recommended: verify that your machine meets the [hardware requirements](/nucleate/setup-and-compatibility/hardware) for local transcription.
 
 ### Installation Instructions
 #### Windows
@@ -33,7 +33,9 @@ ffprobe -version
 2. Install via Homebrew (recommended):
 ```
 # Install Homebrew if not already installed (skip if you have it)
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Installing Homebrew may require sudo and your password. Follow the terminal prompts.
 
 # Install FFmpeg
 brew install ffmpeg

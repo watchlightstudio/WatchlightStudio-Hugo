@@ -24,12 +24,12 @@ These configurations provide the best balance of compatibility, performance, and
 |Ollama (local)|✅|✅|✅|✅|
 |Ollama Overdrive|✅|✅|✅|✅|
 |Diarization (CPU)|✅|✅|✅|❌|
-|Diarization (GPU)|✅|❌|❌|❌|
+|Diarization (GPU/MPS)|✅|✅|❌|❌|
 |OpenAI API|✅|✅|✅|✅|
 
 {{< callout type="info" >}}
 • <sup>*</sup>Windows CUDA (≥16GB RAM, ≥8GB VRAM)  
-• Ollama Overdrive stores models in memory and benefits from ≥16GB RAM.  
+• On Windows, Ollama Overdrive stores models in memory and benefits from ≥16GB of memory.  
 • Faster-Whisper GPU acceleration is only available on Windows with CUDA.  
 • On macOS, GPU acceleration requires the Whisper backend and Apple Metal.  
 • Intel Macs cannot run Whisper or diarization models due to PyTorch limitations.  

@@ -38,10 +38,10 @@ And now, here we are. Nucleate is entering beta—and for the first time, it fee
 I like data! See the stats that went into Nucleate pre-release.
 
 ### Git commits
-See heat map of git commits vs time.
+See heat map of git commits vs time. #TODO
 
 ### Lines of Code
-See figure of lines of code vs time.
+See figure of lines of code vs time. #TODO
 
 ### Logged Dev hours
-See clockify number of logged hours.
+See clockify number of logged hours. #TODO 

@@ -29,7 +29,7 @@ Pick from one of the most common Ollama downloads or enter your own. Anything li
 FFmpeg and FFprobe are essential for handling a wide range of audio formats and enabling Whisper-based transcription. Without them, Nucleate is limited to WAV-only audio and cannot use certain transcription backends.
 
 {{< callout type="info" >}}
-Installing FFmpeg is strongly recommended. [Installation instructions are available here](05-nucleate-ffmpeg-installation.md). Once installed, Nucleate will automatically detect it and unlock full audio support.
+Installing FFmpeg is strongly recommended. [Installation instructions are available here](/nucleate/setup-and-compatibility/ffmpeg-ffprobe). Once installed, Nucleate will automatically detect it and unlock full audio support.
 {{< /callout >}}
 
 ### Why isn't FFmpeg bundled with Nucleate?

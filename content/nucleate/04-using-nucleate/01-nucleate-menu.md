@@ -225,7 +225,7 @@ Settings here are adaptive: available options update automatically based on dete
 
 	**Usage indicators**
 	
-	- Persistent usage reflects loaded Ollama models (when Overdrive is enabled)  
+	- Persistent usage reflects loaded Ollama models (when Overdrive is enabled on Windows)  
 	- Peak usage represents additional memory allocated during:
 		- Transcription
 		- Diarization
@@ -272,13 +272,15 @@ These options provide **direct control over Nucleate’s core processing pipelin
 Advanced features are available to **Nucleate Pro users**, provided the system meets the relevant compatibility requirements.
 
 1. #### Ollama Overdrive
-	Ollama Overdrive keeps the active local summarization model **persistently loaded in memory** (VRAM or system RAM, depending on configuration).
+	Ollama Overdrive keeps the active local summarization model **persistently loaded in memory** on Windows (VRAM or system RAM, depending on configuration). On Mac, the model is unloaded after use.
 	
 	By avoiding repeated model load and unload cycles, Overdrive:
 	- Reduces overhead between summarization calls
 	- Significantly increases summarization speed (≈ +50% TPS in many cases)
 	- Is especially beneficial for frequent, automated, or background summaries
-	
+
+	Testing on both Mac with Intel and Apple Silicon hardware, Overdrive often does not provide additional tokens per second enhancement.
+
 	{{< callout type="warning" >}}  
 	Ollama Overdrive is **not recommended for systems with limited RAM or VRAM**. Keeping models resident in memory reduces resources available to other applications.  
 	{{< /callout >}}

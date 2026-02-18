@@ -7,7 +7,7 @@ url: "/nucleate/setup-and-compatibility/installation"
 ---
 ## To install Nucleate
 ### Prerequisites
-Check [this page](02-nucleate-hardware-prerequisites.md) to make sure you've identified your hardware prerequisites. If planning to use local summarization, be sure also to have installed [Ollama](https://ollama.com/download).  For the most flexible support, ensure also that [FFmpeg/FFprobe](05-nucleate-ffmpeg-installation.md) have been correctly installed.
+Check [this page](/nucleate/setup-and-compatibility/hardware) to make sure you've identified your hardware prerequisites. If planning to use local summarization, be sure also to have installed [Ollama](https://ollama.com/download).  For the most flexible support, ensure also that [FFmpeg/FFprobe](/nucleate/setup-and-compatibility/ffmpeg-ffprobe) have been correctly installed.
 
 ### Basic installation instructions
 Nucleate was designed for quick, one-step deployment. On Windows, select the .exe. On Mac, mount the .dmg and drag the app into your Applications folder. That's it!
@@ -31,7 +31,7 @@ If a valid OpenAI API key is provided, more settings become available in the "AI
 #### Notion services
 Notion is a cloud-based note taking app. Nucleate can optionally connect to a Notion database so that you can publish and manage your summaries to the cloud.
 
-To connect Nucleate to Notion requires a Notion account, a formatted database, and an API key. See this video for a full setup guide: @@@
+To connect Nucleate to Notion requires a Notion account, a formatted database, and an API key. See this video for a full setup guide: #TODO
 
 ## To uninstall Nucleate
 Nucleate works like any other desktop app. On Windows, find the app in "Add or remove programs" and select to uninstall. On Mac, drag the app to the trash.

@@ -3,7 +3,6 @@ linkTitle: "EULA"
 type: docs
 weight: 9
 slug: "eula"
-url: "/nucleate/legal/eula"
 ---
 ## END-USER LICENSE AGREEMENT
 END-USER LICENSE AGREEMENT (EULA) FOR NUCLEATE  
@@ -58,16 +57,13 @@ By purchasing and using the Software, you consent to this limited processing for
 
 6. THIRD-PARTY SERVICES AND SOFTWARE
 
-6.1 NVIDIA CUDA Toolkit  
-The Software optionally utilizes the NVIDIA CUDA Toolkit for GPU acceleration. CUDA is proprietary software owned by NVIDIA Corporation. The CUDA Toolkit must be installed separately by the user, and its use is subject to NVIDIA’s license agreements and terms available at https://developer.nvidia.com/cuda-toolkit.
-
-6.2 External APIs and Services  
+6.1 External APIs and Services  
 The Software supports integration with third-party services such as OpenAI, Notion, and Obsidian. Use of these services requires separate user accounts and acceptance of their respective terms of service and privacy policies. The Developer is not responsible for these third-party terms or any data transmitted to or from such services.
 
-6.3 User Responsibility  
+6.2 User Responsibility  
 You are solely responsible for compliance with all third-party service terms, including appropriate handling of API keys and data privacy.
 
-6.4 Model and Dependency Licensing  
+6.3 Model and Dependency Licensing  
 The Software may interact with or download open-source or third-party machine learning models (e.g., Mistral via Ollama) and dependencies (e.g., Faster-Whisper, Whisper, and Pyannote) that are governed by their own licenses. These components are not developed or maintained by the Developer and may impose restrictions on use, including limitations on commercial use.
 
 The Developer does not redistribute any proprietary models or weights directly. When enabling automatic model downloads, you are responsible for reviewing and complying with the licenses and terms of any external models, libraries, or services accessed or installed through the Software.
@@ -79,7 +75,7 @@ Examples include but are not limited to:
 
 Use of these third-party components is at your own risk. You agree that the Developer is not liable for any claims or consequences arising from your use of externally licensed models or services.
 
-6.5 Default Model Consent
+6.4 Default Model Consent
 As part of the initial installation and setup process, the Software is preconfigured to download and use the Mistral language model via Ollama as the default local summarization model.
 
 By accepting this Agreement, you acknowledge and agree to the following:
@@ -91,7 +87,7 @@ By accepting this Agreement, you acknowledge and agree to the following:
 
 The Developer does not redistribute Mistral weights directly and provides this default model configuration solely for convenience and compatibility. You may optionally select alternative models, which may require separate license acceptance.
 
-6.6 Recommendations for Third-Party Applications
+6.5 Recommendations for Third-Party Applications
 The Developer may suggest or recommend third-party applications, services, or integrations that may work with the Software. These recommendations are provided for informational purposes only and do not constitute an endorsement, guarantee, or warranty of any kind.
 
 The Developer does not test, monitor, or control the operation, security, or content of these third-party applications. Use of any recommended third-party application is at your sole discretion and risk. You are responsible for reviewing and agreeing to the applicable terms of service, privacy policy, and license agreements for any third-party application you choose to use.

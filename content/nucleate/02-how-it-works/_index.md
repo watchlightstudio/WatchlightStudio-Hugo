@@ -12,6 +12,6 @@ Here you’ll find a high-level look at how transcription, summarization, diariz
 
 >
 {{< cards >}}
-  {{< card link="01-nucleate-how-it-works" title="How it works" icon="cog" >}}
-  {{< card link="02-nucleate-performance" title="Performance" icon="chart-bar" >}}
+  {{< card link="/nucleate/how-it-works/core-background" title="How it works" icon="cog" >}}
+  {{< card link="/nucleate/how-it-works/performance" title="Performance" icon="chart-bar" >}}
 {{< /cards >}}

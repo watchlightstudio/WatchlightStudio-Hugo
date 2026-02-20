@@ -1,7 +1,7 @@
 [build]
   publish = "public"
   command = "hugo --gc --minify -b ${DEPLOY_PRIME_URL}"
-  functions = "netlify/functions"  # <-- add this
+  functions = "netlify/functions"
 
 [build.environment]
   HUGO_VERSION = "0.145.0"

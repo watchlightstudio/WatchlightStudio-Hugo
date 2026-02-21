@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nucleate/02-how-it-works/02-nucleate-performance.md",
+                "file": "nucleate/04-using-nucleate/03-custom-modes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "02-nucleate-performance"
+              "title": "03-custom-modes"
             }
           }
         ]
@@ -168,8 +168,8 @@
   },
   "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
-    "nucleate/04-using-nucleate/03-custom-modes.md",
     "nucleate/02-how-it-works/02-nucleate-performance.md",
+    "nucleate/04-using-nucleate/03-custom-modes.md",
     "nucleate/02-how-it-works/01-nucleate-how-it-works.md",
     "nucleate/01-overview/01-nucleate-background.md",
     "nucleate/05-legal/nucleate-eula.md",

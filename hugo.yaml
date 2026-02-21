@@ -52,7 +52,7 @@ menu:
 
 params:
 
-  modesVersion: "v1.1"
+  modesVersion: "v1.2"
 
   navbar:
     displayTitle: true

@@ -6,3 +6,6 @@ resources/
 # Editor
 .vscode/
 
+
+# Local Netlify folder
+.netlify

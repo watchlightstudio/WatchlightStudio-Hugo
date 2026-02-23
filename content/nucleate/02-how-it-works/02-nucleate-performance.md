@@ -23,8 +23,9 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 8 TPS => 0.57M tokens/dollar (same as OpenAI pricing)
 ```
 
-### Example performance
-**Local LLM Summarization using a NVIDIA 3090 FE GPU (24GB VRAM):**
+### Example summarization performance
+<details>
+<summary>Local LLM Summarization using a NVIDIA 3090 FE GPU (24GB VRAM)</summary>
 
 |                   | **Mistral**    | **+Overdrive** |
 | ----------------- | -------------- | -------------- |
@@ -34,9 +35,20 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 | **Run 4**         | 92             | 146            |
 | **Run 5**         | 86             | 140            |
 | **Average (TPS)** | 90 +/- 5.1     | 142 +/- 7.7    |
+</details>  
+  
+<details>
+<summary>Local LLM Summarization using a Mac Mini M4 (16GB, 10 core)</summary>
 
-**Local LLM Summarization using a NVIDIA 3060 Laptop GPU (6GB VRAM):**
-
+|                   | **Mistral**    | **+Overdrive** |
+| ----------------- | -------------- | -------------- |
+| **Run 1**         | 23             | 23             |
+| **Run 2**         | 22             | 22             |
+| **Run 3**         | 23             | 22             |
+| **Run 4**         | 23             | 23             |
+| **Run 5**         | 23             | 23             |
+| **Average (TPS)** | 23 +/- 0.1     | 23 +/- 0.5     |
+</details>
 
 ## Transcription performance (speed multiplier)
 In-app transcription performance is measured as a simple ratio of transcription speed vs audio file length. If it takes 18s to transcribe a 180s audio file, the multiplier is 10x. Similar to TPS, more efficient hardware gives higher multipliers, which reduces the time required to perform analysis, energy, and cost.
@@ -59,8 +71,9 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 0.15 xMultiplier => 2.8h/dollar (same as OpenAI pricing)
 ```
 
-### Example performance
-**Local transcription using a NVIDIA 3090 FE GPU (24GB VRAM):**
+### Example transcription performance
+<details>
+<summary>Local transcription using a NVIDIA 3090 FE GPU (24GB VRAM):</summary>
 
 | Whisper            | **Base**    | **Small**   | **Medium**  | **Large-v3** | **Large-v3-turbo**   |
 | ------------------ | ----------- | ----------- | ----------- | ------------ | -------------------- |
@@ -81,8 +94,10 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 | Run 3              | 35.93       | 28.30       | 18.23       | 14.09        | 27.49                |
 | Run 4              | 27.82       | 24.78       | 16.14       | 12.47        | 27.63                |
 | Average            | 33.1 ± 4.1  | 27.2 ± 1.6  | 17.6 ± 1.0  | 12.6 ± 1.4   | 26.7 ± 1.5           |
+</details>
 
-**Local transcription using a Ryzen 7900 CPU (12 core):**
+<details>
+<summary>Local transcription using a Ryzen 7900 CPU (12 core):</summary>
 
 | Whisper            | **Base**    | **Small**   | **Medium**  | **Large-v3** | **Large-v3-turbo**   |
 | ------------------ | ----------- | ----------- | ----------- | ------------ | -------------------- |
@@ -101,8 +116,41 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 | Run 2              | 19.87       | 6.79        | 3.16        | -            | -                    |
 | Run 3              | 16.89       | 8.39        | 2.58        | -            | -                    |
 | Average            | 17.6 ± 2.0  | 7.4 ± 0.8   | 2.8 ± 0.3   | 1.6 ± NA     | 2.3 ± NA             |
+</details>
 
-**Local transcription using a 2020 Macbook Pro (Intel x86, 8GB):**
+<details>
+<summary>Local transcription using a M4 Mac Mini (16GB, 10 core):</summary>
+
+| Whisper - CPU      | **Base** | **Small** | **Medium** | **Large-v3** | **Large-v3-turbo** |
+|--------------------|-------------|-------------|-------------|--------------|----------------------|
+| Model size         | 1.0 GB      | 2.0 GB      | 4.1 GB      | 8.0 GB       | 4.4 GB               |
+| ------------------ | ----------- | ----------- | ----------- | ------------ | -------------------- |
+| Run 1              | 22.19       | 12.04       | 4.88        | 1.65         | 4.69                 |
+| Run 2              | 22.21       | 11.96       | 4.81        | 1.96         | 4.60                 |
+| Run 3              | 22.58       | 12.02       | 4.98        | -            | 5.08                 |
+| Average            | 22.3 ± 0.2  | 12.0 ± 0.1  | 4.9 ± 0.1   | 1.8 ± 0.2    | 4.8 ± 0.3            |
+
+| Whisper - MPS      | **Base** | **Small** | **Medium** | **Large-v3** | **Large-v3-turbo** |
+|--------------------|-------------|-------------|-------------|--------------|----------------------|
+| Model size         | 2.8 GB      | 7.3 GB      | 9.5 GB      | 12.0 GB      | 8.4 GB               |
+| ------------------ | ----------- | ----------- | ----------- | ------------ | -------------------- |
+| Run 1              | 14.58       | 8.40        | 4.16        | 1.83         | 3.57                 |
+| Run 2              | 14.47       | 8.53        | 4.23        | 1.83         | 3.79                 |
+| Run 3              | 14.42       | 8.53        | 4.29        | -            | 5.04                 |
+| Average            | 14.5 ± 0.1  | 8.5 ± 0.1   | 4.2 ± 0.1   | 1.8 ± 0.1    | 4.1 ± 0.8            |
+
+| Faster-Whisper | **Base** | **Small** | **Medium** | **Large-v3** | **Large-v3-turbo** |
+|--------------------|-------------|-------------|-------------|--------------|----------------------|
+| Model size         | 1.0 GB      | 1.8 GB      | 2.8 GB      | 3.4 GB       | 2.1 GB               |
+| ------------------ | ----------- | ----------- | ----------- | ------------ | -------------------- |
+| Run 1              | 15.84       | 7.65        | 3.19        | 1.77         | 2.61                 |
+| Run 2              | 15.79       | 7.29        | 3.13        | 1.77         | 2.60                 |
+| Run 3              | 15.87       | 7.30        | 3.14        | -            | -                    |
+| Average            | 15.8 ± 0.1  | 7.4 ± 0.2   | 3.2 ± 0.1   | 1.8 ± NA     | 2.6 ± 0.1            |
+</details>
+
+<details>
+<summary>Local transcription using a 2020 Macbook Pro (Intel x86, 8GB):</summary>
 
 | Faster-Whisper     | **Base**    | **Small**   | **Medium**  | **Large-v3** | **Large-v3-turbo**   |
 | ------------------ | ----------- | ----------- | ----------- | ------------ | -------------------- |
@@ -112,3 +160,4 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 | Run 2              | 11.28       | 4.06        | 1.49        | -            | -                    |
 | Run 3              | 11.19       | 4.10        | 1.48        | -            | -                    |
 | Average            | 11.2 ± 0.1  | 4.1 ± 0.1   | 1.5 ± 0.1   | -            | -                    |
+</details>

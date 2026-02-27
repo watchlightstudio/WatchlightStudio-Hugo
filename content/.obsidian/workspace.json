@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nucleate/02-how-it-works/02-nucleate-performance.md",
+                "file": "nucleate/01-overview/03-nucleate-journey.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "02-nucleate-performance"
+              "title": "03-nucleate-journey"
             }
           }
         ]
@@ -168,9 +168,13 @@
   },
   "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
-    "nucleate/04-using-nucleate/01-nucleate-menu.md",
+    "nucleate/02-how-it-works/_index.md",
     "nucleate/02-how-it-works/02-nucleate-performance.md",
+    "nucleate/04-using-nucleate/01-nucleate-menu.md",
+    "nucleate/04-using-nucleate/02-talking-out-loud.md",
     "nucleate/04-using-nucleate/03-custom-modes.md",
+    "nucleate/01-overview/03-nucleate-journey.md",
+    "Pasted image 20260226214828.png",
     "nucleate/02-how-it-works/01-nucleate-how-it-works.md",
     "nucleate/01-overview/01-nucleate-background.md",
     "nucleate/05-legal/nucleate-eula.md",
@@ -184,17 +188,13 @@
     "nucleate/03-setup-and-compatibility/03-nucleate-software-prerequisites.md",
     "nucleate/03-setup-and-compatibility/02-nucleate-hardware-prerequisites.md",
     "nucleate/03-setup-and-compatibility/01-nucleate-compatibility-cheat-sheet.md",
-    "nucleate/02-how-it-works/_index.md",
     "nucleate/01-overview/_index.md",
-    "nucleate/01-overview/03-nucleate-journey.md",
     "nucleate/01-overview/02-nucleate-comparison.md",
     "nucleate/_index.md",
-    "nucleate/04-using-nucleate/02-talking-out-loud.md",
     "_index.md",
     "Untitled.base",
     "projects-and-tools/_index.md",
     "projects-and-tools/firefly/_index.md",
-    "projects-and-tools/firefly/firefly.md",
     "projects-and-tools/nucleate 1/04-using-nucleate",
     "projects-and-tools/nucleate 1/03-setup-and-compatibility",
     "projects-and-tools/nucleate 1/05-legal",

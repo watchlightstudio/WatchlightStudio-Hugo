@@ -37,11 +37,15 @@ And now, here we are. Nucleate is entering beta—and for the first time, it fee
 
 I like data! See the stats that went into Nucleate pre-release.
 
-### Git commits
-See heat map of git commits vs time. #TODO
+### Milestone events:
+- April 16th: Repo established for "LLM Scribe" 
+- June 28th: Development for general release begins under the "Echo" project name
+- September 1st: Addition of multiple user modes and supporting system prompts
+- October 26th: Rebranding under a product name, "Nucleate"
+- November 16th: Branch for tkinker => PySide6 conversion
+- December 21st: Removed tkinker legacy code from repo, consolidation
+- January 1st: macOS (x86) first development round complete
+- February 16th: macOS (Apple Silicon) first development round complete
+- February 25th: Windows w/ CUDA, Windows w/ CPU, macOS w/ Apple Silicon, and macOS w/ Intel packaged successfully
 
-### Lines of Code
-See figure of lines of code vs time. #TODO
-
-### Logged Dev hours
-See clockify number of logged hours. #TODO 
+<img src="/nucleate_stats.png">

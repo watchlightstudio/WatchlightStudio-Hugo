@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nucleate/01-overview/03-nucleate-journey.md",
+                "file": "devlog/2026-devlogs/_index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "03-nucleate-journey"
+              "title": "_index"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 367.5
   },
   "right": {
     "id": "9fc72adaaabba61e",
@@ -168,33 +168,34 @@
   },
   "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
+    "devlog/2025-devlogs/_index.md",
+    "devlog/2025-devlogs/Nucleate-2025-04.md",
+    "devlog/2025-devlogs/Nucleate-2025-05.md",
+    "devlog/2025-devlogs/Nucleate-2025-06.md",
+    "devlog/2025-devlogs/Nucleate-2025-07.md",
+    "devlog/2025-devlogs/Nucleate-2025-08.md",
+    "devlog/2025-devlogs/Nucleate-2025-09.md",
+    "devlog/2025-devlogs/Nucleate-2025-10.md",
+    "devlog/2025-devlogs/Nucleate-2025-11.md",
+    "devlog/2025-devlogs/Nucleate-2025-12.md",
+    "devlog/2026-devlogs/Nucleate-2026-02.md",
+    "devlog/2026-devlogs/Nucleate-2026-01.md",
+    "devlog/2026-devlogs/_index.md",
+    "devlog/2025-devlogs/Nucleate - 2025-04-14 (Weekly).md",
+    "devlog/2025-devlogs/Nucleate - 2025-04-07 (Weekly).md",
+    "devlog/2025-devlogs/Devlog-2025-05.md",
+    "devlog/_index.md",
+    "nucleate/04-using-nucleate/01-nucleate-menu.md",
+    "devlog/2025-devlogs/Devlog-2025-04 1.md",
+    "nucleate/01-overview/03-nucleate-journey.md",
     "nucleate/02-how-it-works/_index.md",
     "nucleate/02-how-it-works/02-nucleate-performance.md",
-    "nucleate/04-using-nucleate/01-nucleate-menu.md",
     "nucleate/04-using-nucleate/02-talking-out-loud.md",
     "nucleate/04-using-nucleate/03-custom-modes.md",
-    "nucleate/01-overview/03-nucleate-journey.md",
     "Pasted image 20260226214828.png",
     "nucleate/02-how-it-works/01-nucleate-how-it-works.md",
     "nucleate/01-overview/01-nucleate-background.md",
-    "nucleate/05-legal/nucleate-eula.md",
-    "nucleate/05-legal/nucleate-license.md",
-    "nucleate/05-legal/_index.md",
-    "nucleate/04-using-nucleate/_index.md",
-    "nucleate/03-setup-and-compatibility/_index.md",
-    "nucleate/03-setup-and-compatibility/06-nucleate-cloud-workflow.md",
-    "nucleate/03-setup-and-compatibility/05-nucleate-ffmpeg-installation.md",
-    "nucleate/03-setup-and-compatibility/04-nucleate-installation.md",
-    "nucleate/03-setup-and-compatibility/03-nucleate-software-prerequisites.md",
-    "nucleate/03-setup-and-compatibility/02-nucleate-hardware-prerequisites.md",
-    "nucleate/03-setup-and-compatibility/01-nucleate-compatibility-cheat-sheet.md",
-    "nucleate/01-overview/_index.md",
-    "nucleate/01-overview/02-nucleate-comparison.md",
-    "nucleate/_index.md",
-    "_index.md",
     "Untitled.base",
-    "projects-and-tools/_index.md",
-    "projects-and-tools/firefly/_index.md",
     "projects-and-tools/nucleate 1/04-using-nucleate",
     "projects-and-tools/nucleate 1/03-setup-and-compatibility",
     "projects-and-tools/nucleate 1/05-legal",

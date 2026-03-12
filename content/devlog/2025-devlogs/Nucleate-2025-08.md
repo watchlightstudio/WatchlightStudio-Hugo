@@ -5,31 +5,35 @@ type: docs
 
 ## Overview
 
-This month has been largely focused on enhancing the Echo app's user experience, particularly around the transcription process and note management. I spent a lot of time refining the 'busy' status icon and developing a robust system for handling various types of notes. While I made some solid progress, I also ran into challenges that pushed me to rethink certain implementations.
+This month was all about refining the Echo app and gearing up for its first alpha release. I focused on polishing the user interface and adding essential features that enhance usability, like the first-time setup wizard and file synchronization. I also laid the groundwork for user modes, which I believe will help tailor the experience to different user needs.
 
 ## Highlights & Progress
 
 ### Tools & Workflow
-- Introduced a 'busy' status icon to indicate when transcription processing is underway, which helps users understand the app's state better.
-- Connected the studio account with services like Gumroad, Buy Me a Coffee, and Coffee, with plans to integrate itch.io and Patreon next.
+- Successfully packaged the Echo app as a V0 alpha, marking a significant step towards eventually getting user feedback.
+- Launched a website dedicated to user documentation, which should help users get started and understand the app better.
 ### Systems & Features
-- Developed a busy manager that allows for enabling and disabling notifications related to the 'busy' status, improving user feedback during processing.
-- Implemented a script to check the 'isBusy' status and update the icon image accordingly, along with a polling watcher that checks this status every second.
-- Refined the special notes section of the Echo app, creating a system that supports 25 different types of notes, each with unique value statements and formats.
-- Created a manager to connect all the different types of notes, streamlining the note management process.
+- Polished the UI, adding loading bars and a first-time setup wizard to improve the onboarding experience. 
+- Implemented a polling watcher to check the busy status every second, enhancing the tray application’s responsiveness.
+- Updated the tray application to change the icon based on user state changes, providing a clearer visual cue of the app's status.
+### Experiments
+- Started exploring user modes for different categories, such as personal journaling, businesses, and developers. This could potentially allow users to toggle between different experiences based on their needs.
+- Created a separate script to check the busy status, which has been integrated into the tray application for better performance.
 ### Roadblocks
-- Encountered challenges with the 'busy' status icon, particularly around simplifying the configuration file or extracting the flag from its class to resolve some issues.
-- Acknowledged the computational cost of generating special notes, especially for longer transcripts, which led to a decision to load the transcript or summary only once for generating these notes to improve performance.
+- Encountered some bugs that needed fixing, particularly related to the new licenses introduced this month.
+- Still working through how to manage notifications quietly in the background without overwhelming users.
+### Studio
+- Connected my Studio to various online services, including itch.io and Patreon to squat on the studio name.
 ## Reflections
 
-Overall, I feel like I made meaningful strides in improving the app's functionality this month. The introduction of the 'busy' status icon has been a notable addition, although it did come with its own set of challenges that required some creative problem-solving. I was surprised by the complexity of managing the different types of notes and the computational implications that came with it. This pushed me to think more critically about performance and efficiency. I also realized that some of my initial assumptions about how these features would integrate were off, leading to a few necessary adjustments.
+This month, I was pleasantly surprised by how much I could achieve in terms of UI and feature enhancements. The integration of the busy status polling was a bit of a challenge, but it ultimately paid off by making the tray application more dynamic. I still have lingering questions about managing notifications and resource consumption, which I need to address moving forward. The decision to explore user modes feels like a promising direction, but I need to clarify how to implement it effectively without adding unnecessary complexity.
 
 ## Next Steps
 
-- Continue to refine the 'busy' status icon and its management for long-term usability.
-- Work on formatting consistency and polishing the value statements for the individual special notes scripts.
-- Explore how to handle tax concerns from different websites as I expand the app's monetization options.
-- Consider refactoring the weekly and monthly summarizers to take advantage of the new settings and improve overall performance.
+- Finalize the implementation of user modes and define specific flags for each mode to facilitate easy switching.
+- Continue refining the notification system to ensure it operates quietly and efficiently in the background.
+- Investigate ways to identify risks or content expectations for each user mode to enhance user experience.
+- Gather feedback from the alpha release to inform future development priorities.
 
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

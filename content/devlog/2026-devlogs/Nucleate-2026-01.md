@@ -5,39 +5,36 @@ type: docs
 
 ## Overview
 
-This month has been heavily focused on refining the productivity app, particularly around licensing, feature differentiation, and technical improvements. I spent a lot of time identifying key features for both the free and premium versions, which has helped clarify the direction of the app. However, I faced several challenges, especially with the transcription pipeline and compatibility issues across different operating systems.
+This month has been a blend of polishing Nucleate's user experience and tackling technical hurdles, particularly around cross-platform compatibility. I focused on enhancing features, especially around transcription and diarization, while also addressing some persistent issues on the Mac side. The month was marked by a shift in testing approaches and a deeper integration of various audio processing technologies.
 
 ## Highlights & Progress
 
-### Licensing & Features
-- I concentrated on defining the app's licensing structure and distinguishing features for free versus premium users.
-- The diarization feature showed promise but has been problematic, causing disruptions in the transcription pipeline.
-- Potential offerings are starting to take shape, including special notes and meeting notes, and I’m considering porting Whisper for Mac and Windows.
-### Technical Improvements
-- Upgraded to GPU packages for Torch, which resolved some compatibility issues with dependencies.
-- Integrated a helper file into the main transcription system, which should streamline processes moving forward.
-- Created a new branch specifically for tuning special notes with a focus on Mac compatibility.
-- Made significant progress in optimizing loading times, achieving a reduction of about 20% in initial load time.
-### User Interface & Experience
-- I worked on improving the user interface, particularly addressing button responsiveness and adding a customization option for users to toggle speaker identification on or off.
-- Refactored the chunking function and decided to add an animated loading wheel to enhance user feedback during processing.
-### Marketing Efforts
-- I’m also planning to create animations to showcase the app's features on marketing pages and considering making the website's menu structure interactive.
-### Ongoing Challenges
-- Encountered issues with the app's transcription functionality on Mac, specifically a script issue that needs fixing.
-- The Windows version of the app is functioning properly, but I’m still facing challenges with the Intel Mac version, particularly with the inability to run Whisper due to dependency issues.
-- I’m building a virtual environment and installing Pyanote audio for Intel Mac, but the CPU-only builds of Torch are slow to compile.
+### Tools & Workflow
+- Polished the app's stylization and resolved several Mac-related issues, which has been a long-standing pain point.
+- Created a single point of contact theme class for easier customization, streamlining the styling process.
+- Updated the website and documentation materials for Nucleate's features.
+### Systems & Features
+- Added new features like Ollama detection, an Ollama overdrive toggle, and gated diarization behind pro features.
+- Addressed additional bugs specifically affecting the Mac version of the app.
+- Integrated OpenAI's Whisper and Faster Whisper for transcription, as well as resolved diarization subprocess woes in the app.
+- Implemented M4A file conversion into .wav and normalized backend transcription processing.
+### Experiments
+- Successfully tested diarization via pyannote audio on CPU and on GPU.
+- Upgraded to the GPU package for torch and identified CUDA version 11.1 for GPU compatibility, although I faced some limitations with Torch options on Mac.
+### Roadblocks
+- Encountered inconsistencies in app performance between Windows and Mac, which has been frustrating and requires further investigation.
+- Faced dependency issues on Mac, leading to a workaround using a virtual environment and CPU-only Torch builds on Intel Mac hardware.
+- OpenAI Whisper's incompatibility with Intel Macs led to the decision to make Faster Whisper available to all users, which feels like a necessary compromise.
 ## Reflections
 
-This month has been a mixed bag. On one hand, I made solid progress in defining features and improving the app’s performance. On the other hand, I was surprised by the extent of the challenges I faced with the transcription functionality, especially on Mac. It’s clear that the technical hurdles are more significant than I initially thought, particularly with compatibility and performance issues. I’ve also realized that I need to be more proactive in my marketing efforts.
+Overall, I feel like I made solid progress this month, especially in terms of feature development and improving the user interface. However, the ongoing issues with Mac compatibility have been a significant roadblock. I was surprised by how much I had to pivot my approach to testing and development, particularly with the CPU-based strategies. The decision to gate certain features behind a pro tier is still up in the air, as I’m weighing the benefits of making hardware-accelerated transcription more widely available. 
 
 ## Next Steps
 
-- Address the transcription issues on Mac, particularly the script problem and explore alternatives for Whisper.
-- Continue refining the user interface and finalize the animated loading wheel implementation.
-- Investigate potential revenue streams further, including early access and premium content options.
-- Explore texture compression and asset bundling to improve performance.
-- Finalize the marketing animations and interactive website features to enhance user engagement.
+- Continue addressing the ongoing bugs on the Mac side and investigate the VRAM spike during diarization.
+- Finalize decisions around the accessibility of hardware-accelerated transcription and the gating of features.
+- Reach out to potential testers on Reddit to form a small beta group for user feedback.
+- Enhance the reliability of diarized insights and explore when to create marketing animations for the app.
 
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

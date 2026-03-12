@@ -5,38 +5,37 @@ type: docs
 
 ## Overview
 
-This month was primarily focused on refining the user experience of the Echo app. I spent a significant amount of time on code refactoring, improving responsiveness, and experimenting with various visual enhancements. While I made some solid progress, I also encountered a fair share of bugs and integration issues that required troubleshooting, which added complexity to the development process.
+This month was primarily about refining the Echo app's codebase and improving user experience while tackling various performance issues. I focused on consolidating features and enhancing the app's functionality, but I also encountered some roadblocks that made me rethink certain approaches. The decision to put the user modes feature on hold was a significant pivot, allowing me to concentrate on more pressing concerns.
 
 ## Highlights & Progress
 
 ### Tools & Workflow
-- Developed custom code for user-defined summary output, which should enhance user customization.
-- Rolled back to a unified single config file to streamline the codebase, making it easier to manage configurations.
-- Moved the menu refresh operation to a background thread, significantly improving app responsiveness.
+- Refined the codebase to improve overall performance.
+- Moved the setup bat script into the main tray app, which helped with consolidation and reliability concerns.
+- Bundled scripts and default files into an executable, simplifying the setup process for users.
 ### Systems & Features
-- Enhanced GUI responsiveness by shifting operations to the main thread, which has noticeably improved user interactions.
-- Worked on a common configuration file manager to address inconsistencies and improve loading times.
-- Implemented a boot check and backup loading functionality for the config file, adding robustness to the app.
-- Refactored the method for loading custom prompts during the OpenAI setup process for better performance.
-### Experiments
-- Experimented with various visual enhancements, including waveform visualizers and animations like a bubbling beaker and a spinning atom, to make the app more engaging.
-- Used Inkscape to create hand-drawn GIFs for visual menus, adding a unique touch to the user interface.
+- Customized code to generate flexible summaries and added features like file preferences settings.
+- Implemented a common configuration file manager to address bugs related to configuration loading.
+- Designed a splash screen and created a GIF logo for the app, enhancing its visual appeal.
+- Started developing a waveform analyzer for the Trey app, experimenting with visual effects and scripting a tool to output color-mapped waveforms.
+### Performance Enhancements
+- Launched GUI management on the main thread, which led to noticeable performance improvements.
+- Addressed issues with background processes and thread management that were impacting the app's reliability.
 ### Roadblocks
-- Encountered crashes due to incorrect file paths in the Inno setup while creating a start menu and enabling uninstallation, which required a lot of troubleshooting.
-- Faced integration issues with Ollama models during Python integration on macOS, which has been a persistent challenge.
-- Dealt with CUDA-related issues that impacted performance and transcription operations, complicating the development further.
-- Addressed several bugs in the performance calculator and manual transcription section, which took up more time than anticipated.
+- Faced challenges with inconsistent loading of configuration files, which caused high-level bugs and frequent app loading.
+- Encountered Git management issues due to new file paths, complicating version control.
+- The app occasionally remains opens in the background on some devices, an unresolved issue.
 ## Reflections
 
-Looking back, I can see that the focus on user experience really pushed me to refine the app in ways I hadn't anticipated. The refactoring work, while tedious, has made a noticeable difference in the code quality and performance. However, the integration issues, especially with Ollama models and CUDA, were frustrating and have left me with lingering questions about how to improve my testing and debugging processes. The visual enhancements were a fun experiment, but I’m still unsure about their overall impact on user experience. 
+This month was a mixed bag. While I made solid progress in refining the Echo app and consolidating features, I also hit some frustrating roadblocks, particularly with thread management and configuration loading. Putting the user modes feature on hold was a tough decision, but ultimately, it felt necessary to focus on the more immediate issues. I was surprised by how much the performance enhancements improved the user experience, which reinforces the importance of optimizing existing features before adding new ones. The ongoing challenges with Git management and background processes have left me with some lingering questions about how to streamline my workflow further.
 
 ## Next Steps
 
-- Improve testing and debugging processes to catch issues earlier in the development cycle.
-- Finalize the integration of Ollama models and resolve directory issues on macOS.
-- Continue experimenting with visual enhancements and assess their impact on user engagement.
-- Address the remaining bugs in the performance calculator and manual transcription section.
-- Explore further optimizations for CUDA-related performance issues.
+- Resolve the background opening issue with the app to ensure a smoother user experience.
+- Investigate GPU VRAM instability and how it affects performance.
+- Continue refining the waveform analyzer and explore additional visual effects.
+- Address thread management issues to improve configuration loading consistency.
+- Reassess the user modes feature and determine a clearer path for future development.
 
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

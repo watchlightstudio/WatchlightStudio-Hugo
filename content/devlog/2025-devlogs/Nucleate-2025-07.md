@@ -5,39 +5,32 @@ type: docs
 
 ## Overview
 
-This month was largely focused on refining the user experience in the Echo app and tackling various technical challenges that came up along the way. I spent a lot of time improving the interface and functionality, which has made the app feel more polished. However, I also faced some setbacks and uncertainties, particularly around documentation and technical issues that need resolving before the final release.
+This month was largely about refining the Echo app and enhancing user experience through various updates. I focused on establishing clear user modes, improving integration with Notion, and ensuring the app runs smoothly across different hardware configurations. While I made notable progress, some decisions remain open, particularly regarding custom profiles and models.
 
 ## Highlights & Progress
 
-### User Experience Improvements
-- Refined the user experience by changing active tag lists and introducing a custom user mode feature, which allows for more personalized settings.
-- Revamped user-editable settings and dialogues, making them more intuitive and easier to navigate.
-- Streamlined the Notion integration GUI by removing unnecessary confirmation dialogues, which should help reduce friction during use.
-### Functional Enhancements
-- Added an 'Add License' button and refactored the reset configuration script to fix formatting issues with new custom profiles in the config file.
-- Enhanced NVIDIA GPU detection in Echo, which should improve performance for users with compatible hardware.
-- Introduced an option to switch to OpenAI within Echo, expanding the app's capabilities.
-- Created drop-down menus and scrollable text boxes for detailed inputs, improving the overall usability of the app.
-### Bug Fixes and Technical Adjustments
-- Fixed bugs related to errors thrown when closing the GUI or restarting the app in customized user modes, which had been a persistent issue.
-- Made progress on refactoring reset summaries and transcripts into a utility helper within the tray app, although this is still pending testing.
-- Identified several minor tasks that need to be completed for app finalization before shipping.
-### Documentation and Planning
-- Focused on documentation tasks, including drafting a webpage, creating setup guides, and taking screenshots to ensure users have the resources they need.
-- Planned to work on minor tasks for app finalization during an upcoming work trip, which should help keep momentum going.
+### Tools & Workflow
+- Polished and refined the Echo app, making it more user-friendly.
+- Finalized documentation, including setup guides and launch documentation.
+### Systems & Features
+- Established three distinct user modes: solo developer, small business, and personal user.
+- Implemented tagging and OpenAI, which adds flexibility to how users can interact with the app.
+- Made significant changes to the GUI and integrated Notion, aiming to increase user accessibility.
+### Technical Improvements
+- Developed a script to detect the absence of an NVIDIA GPU, which automatically switches the app to OpenAI, ensuring better compatibility.
+- Added a GUI centering function to the utilities folder, improving layout consistency.
+- Implemented a rotating file handler for log maintenance with a 2MB size limit, which should help manage log files more effectively.
+### Ongoing Investigations
+- I decided to further investigate the background threading issue and the spontaneous closure bug that occurs during long idle periods.
 ## Reflections
 
-Reflecting on the month, I feel good about the strides made in user experience and functionality. The changes to the GUI and user settings have made a noticeable difference, and I think users will appreciate the added flexibility. However, the technical issues, particularly with the config file and background threading, have been frustrating. I’m still unsure if the logging solution will scale well, which is a concern for future maintenance.
-
-I decided to put some ideas for new features on hold to focus on finalizing the app, which feels like the right call given the current state of things.
+Looking back, I feel good about the progress made in refining the app and enhancing user experience. The establishment of the three user modes was a significant step, as it allows for a more tailored experience. However, I’m still grappling with whether to implement custom profiles and models, as it requires substantial changes. The GUI improvements and Notion integration were productive. I was surprised by the complexity of the background threading issue, which I hadn’t anticipated and is likely going to be painful to solve. Overall, the month was productive, but it also highlighted areas where I need to dig deeper.
 
 ## Next Steps
 
-- Finalize minor tasks identified for app completion before shipping.
-- Resolve the technical issues with the config.toml file and background threading.
-- Continue working on documentation to ensure it meets all necessary requirements.
-- Test the refactored utility helper in Trey and ensure it integrates smoothly with the rest of the app.
-- Revisit ideas for new features after the app launch to keep the momentum going.
-
+- Continue investigating the background threading issue and the spontaneous closure bug.
+- Make a decision regarding the addition of custom profiles and models based on the ongoing considerations.
+- Focus on effectively testing the rotating file handler to ensure it operates as intended.
+- Begin outlining the technical details needed for the Obsidian API integration and the TPS detection for the energy and cost savings calculator.
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

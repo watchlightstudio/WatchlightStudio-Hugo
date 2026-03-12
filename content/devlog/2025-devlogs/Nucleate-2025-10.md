@@ -5,42 +5,33 @@ type: docs
 
 ## Overview
 
-This month was primarily focused on refining app features and enhancing the user experience. I spent a lot of time on UI improvements, performance optimizations, and exploring new functionalities that could make the app more intuitive and responsive. The rebranding to "Nucleate" was a significant shift, and it brought along some challenges, particularly around finalizing the branding elements and addressing performance issues on Mac.
+This month was primarily about redefining the Echo app into Nucleate. I focused on enhancing user experience and functionality while tackling persistent bugs that have been affecting the project. The decisions I made regarding branding and features have significantly influenced the direction of my work, especially as I navigated some unexpected challenges.
 
 ## Highlights & Progress
 
 ### Tools & Workflow
-- Added tooltips throughout the app to improve user guidance.
-- Refactored the performance calculator for better speed and efficiency.
-- Upgraded the mode builder, allowing users to create personalized tag lists.
-- Improved error messaging and handling in the main menu based on user feedback.
-- Enhanced the visual appeal for displaying "no items" in the app.
+- I removed Torch and MPS from the Echo app, successfully reducing the EXE file size to 300 megabytes, which should help with user accessibility and hardware commonization.
+- Improved user experience in the Labs section by adding a mode builder, which made the interface feel more polished.
+- Added tooltips for new users to enhance onboarding, making it easier for them to understand app features.
 ### Systems & Features
-- Developed a lab creator space.
-- Updated Ollama, the text summarization model, to suggest optimal models.
-- Added a configuration file for running the appropriate mode, with a rebuild time of around 10 seconds.
-- Refactored the manual summarization process, including modifications to summarize and write methods and chunking scripts.
-- Introduced a new variable `summary_mode_type` to track the type of summary mode.
-- Added a feature for automatic generation of special notes for summaries or transcripts.
-- Implemented a third layer in the AI summarizer to enhance the summarization process.
-### Branding
-- Made the decision to rebrand the app to "Nucleate" to avoid confusion with Amazon Echo.
-- Proposed replacing 'A-T-E' with the number 8 in the app's name.
+- Addressed a critical bug where the Nucleate could function without a valid license during startup.
+- Added the auto notes feature in Nucleate, making summaries more dynamic and appropriate for individual summary content.
+- Planned a redesign of the splash page and new animations for Nucleate to improve visual appeal.
+### Branding Decisions
+- Renamed Echo as "Nucleate" to avoid SEO conflict with Amazon Echo.
 ### Roadblocks
-- Encountered performance optimization issues on Mac due to Metal-optimized hardware.
-- Faced a dilemma in naming the app and finalizing branding elements.
-- Hit a snag with the crystal growth simulation in Python, leading to a switch to Blender for animations.
+- Encountered bugs in the mode builder and special notes backend of Nucleate that delayed progress.
+- Delayed the development of the to-do list feature in Nucleate to focus on core aspects of the app, which felt necessary given scope creep.
 ## Reflections
 
-Looking back, I can see that the focus on user experience really paid off in terms of feedback and usability. The tooltips and error handling improvements were particularly well-received. However, the rebranding process was more complicated than I anticipated, especially with the ongoing discussions about the app's name and branding elements. The performance issues on Mac have been frustrating, and I'm still trying to figure out the best way to address them. Switching to Blender for animations was a tough call, but it seems like it might be the right move in the long run.
+Looking back, I realize that the focus on user experience really paid off. The decision to simplify the app by removing unnecessary components was a good call, as it helped streamline overall performance and stabilize bugs. However, the naming conflicts and branding decisions have been a source of frustration. I’m still unsure about the final branding for the LLM Scribe app and how to address the licensing issues effectively. It’s clear that I need to prioritize these questions moving forward.
 
 ## Next Steps
 
-- Investigate and address ongoing performance issues on Mac.
-- Finalize the branding elements and implement them in the app.
-- Continue refining the summarization process and explore further enhancements.
-- Gather more user feedback on the new features and make adjustments as necessary.
-- Work on the integration of Blender animations into the app.
+1. Finalize the branding decision for the transcription and summarization app and address any potential licensing issues.
+2. Develop a strategy for launching Nucleate, including determining features for free and premium versions.
+3. Prioritize the returned special notes based on user mode in Nucleate to enhance functionality.
+4. Continue refining the Echo app by fixing the remaining bugs and improving the overall user experience.
 
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

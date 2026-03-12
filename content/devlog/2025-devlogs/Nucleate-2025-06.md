@@ -5,35 +5,35 @@ type: docs
 
 ## Overview
 
-This month was largely about upgrading my development environment and refining the tools I use for my projects. The new hardware has significantly boosted my performance, and I’ve started to formalize my business structure while exploring new design approaches. However, I faced some challenges with compatibility issues that slowed down progress on the Scribe app, which has prompted me to rethink some of my strategies.
+This month was largely about laying the groundwork for my studio and refining the Scribe app. I made significant upgrades to my hardware, which has led to better performance metrics, and I took important steps in establishing Watchlight Studio as a formal entity. There were some challenges with testing and naming, but overall, I feel like I’ve made solid progress in both technical and administrative areas.
 
 ## Highlights & Progress
 
 ### Tools & Workflow
-- Upgraded to an AMD Ryzen 9 7900, resulting in a performance boost reflected in Cinebench scores that increased by 80-90%. This has noticeably improved my workflow.
-- Started using Docker for application setup, which has streamlined the management of essential packages and dependencies.
-### Business Development
-- Registered an LLC in Oregon and secured an EIN number, marking an important step in formalizing my business operations.
-### Projects
-- Made strides on the Scribe app, focusing on enhancing user-friendliness and incorporating statistics tracking for features like launch counts and audio transcription minutes.
-- Simplified the format of my weekly and monthly summaries for the Scribe app, making it easier to track progress and reflect on development.
-- Began working on a formalization of Scribe into a devlog summarization assistant project, which is intended to help me consolidate my thoughts and findings more effectively.
-### Design
-- Pivoted to using traditional hand drawings for character designs, moving away from digital methods. This change feels more organic and aligns better with my vision.
-- Created a logo for Watchlight Studio using SVG vector art, though I still have open questions about integrating a joystick knob and improving its scalability for smaller formats.
+- Upgraded my hardware to AMD's AM5 platform and a 7900 CPU, resulting in nearly doubled Cinebench scores vs my previous hardware and while maintaining sub 40C temps.
+- Registered the domain for Watchlight Studio and successfully filed for an LLC in Oregon, with the paperwork approved and an Employer Identification Number (EIN) secured.
+- Created a logo for Watchlight Studio using SVG, featuring a tree and a lantern, which I think captures the essence of the studio well.
+### Systems & Features
+- Expanded the Scribe app's compatibility to include Mistral and Ollama, along with adding options for Mistral 7B, Llama 2, and Llama 2 with 7-bit quantization.
+- Refactored and reorganized scripts to improve user experience, which has been a focus this month.
+- Made progress on polishing output format files for summaries and defined new summary profiles with model names and prompts in a specific format.
+### Experiments
+- Started exploring Docker for smoother app setup, which I hope will alleviate some of the testing limitations I've faced.
+- Pondered a new name for the app, as I feel that "LLMScribe" doesn’t quite resonate. This has been an ongoing thought process.
 ### Roadblocks
-- Progress on the local Scribe project has been slower than anticipated, primarily due to compatibility issues with Scribe that currently favor NVIDIA GPUs, leaving AMD users at a disadvantage.
+- Encountered limitations in testing due to issues with the transcription and summarization processes.
+- Faced difficulties in fully testing the app setup on virtual machines, which has stalled some of my progress.
+- A planned trip to Taiwan was postponed, which might impact progress.
 ## Reflections
 
-This month has been a mixed bag. The hardware upgrade was a game changer, allowing me to work more efficiently, but the compatibility issues with Scribe have been frustrating. I was surprised by how much I enjoyed switching to traditional hand drawings for character designs; it feels more authentic. I also realized that simplifying my summaries has made it easier to keep track of my thoughts and progress, which is something I’ll continue to focus on moving forward.
+Looking back, I’m pleased with the progress on the studio front and the technical improvements to the Scribe app. The hardware upgrade has made a noticeable difference, and I’m excited about the potential of the expanded compatibility features. However, the challenges with testing have been frustrating, and I still need to figure out how to effectively test the app setup on virtual machines. The naming question for the app is still open, and I realize I need to focus on that more seriously next month. Overall, I feel like I’m on the right track, but there are definitely areas that need more attention.
 
 ## Next Steps
 
-- Address the compatibility issues with Scribe to ensure it works well for all users, regardless of their GPU.
-- Finalize the logo design by resolving the questions around the joystick knob integration and scalability.
-- Continue developing the devlog summarization assistant to enhance my reflection process.
-- Push forward with the Scribe app, aiming to implement more user-friendly features based on feedback.
-- Explore additional ways to improve the local Scribe project’s development speed and efficiency.
+- Continue exploring Docker for app setup and resolve testing issues on virtual machines.
+- Brainstorm and finalize a new name for the app that feels more catchy and fitting.
+- Investigate options for non-NVIDIA GPUs and their compatibility with Windows machines.
+- Address uncertainties regarding the app's monetization and functionality to clarify the direction moving forward.
 
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

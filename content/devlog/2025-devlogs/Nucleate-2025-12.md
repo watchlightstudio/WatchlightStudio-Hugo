@@ -5,33 +5,38 @@ type: docs
 
 ## Overview
 
-This month was primarily focused on migrating components to PySide 6 and refining the back-end of the application. I spent a lot of time cleaning up the code and ensuring that the user interface was not only functional but also visually appealing. While I made significant strides in several areas, I also encountered some frustrating issues that need to be addressed moving forward.
+This month was largely about finishing the transition of Nucleate from Tinker to PySide 6. I focused on getting the main GUIs operational and implementing new features that enhance utility.
 
 ## Highlights & Progress
 
 ### Tools & Workflow
-- Successfully migrated components from the original Tinker layout to PySide 6, which has been a major step forward in modernizing the app.
-- Implemented an event bus for more efficient event management, which should streamline communication within the app.
+- Successfully refactored the app to use PySide 6, which was a major shift in my development environment.
+- Main GUIs are now operational as panels, which has streamlined the user interface.
 ### Systems & Features
-- Refactored the read major panel and cleaned up back-end connections, which has improved overall performance.
-- Updated about 12 out of 13 panels following the AppState updates, with only one panel left needing tweaks.
-- Developed a terminal-like window for real-time app updates, although I still need to improve error handling in this feature.
-- Revamped animations for the primary hub interface, including a new split flap animation and brainstorming the addition of GIFs for user modes.
-- Improved the responsiveness of the animation control button, though it still has some lag that needs addressing.
-- Added a loading wheel to indicate background processing, which should enhance user experience during longer operations.
-### Roadblocks
-- Encountered freezing issues due to frequent refresh configuration calls, which has been a significant pain point this month.
-- Investigating a critical issue where the app wipes copies upon configuration file refreshes, which could lead to data loss.
+- Implemented a custom user mode space and added import/export mode types, allowing for more flexibility in what kind of users might see value in Nucleate.
+- Created a tag editing feature along with a pop-up wizard for file selection and tagging.
+- Added visual indicators, including animated GIFs, to the upcoming front page, which should make the interface more engaging.
+- Developed a default hub for the app which serves to show major status indicators and be a single automation toggle.
+- Fixed 12 out of 13 broken panels during the backend refactoring, which was a significant cleanup task.
+### Visual Enhancements
+- Introduced a split flap display animation for the hub page catchphrase, adding a fun element to the interface.
+- Created an explicit indefinite loading bar for faster whisper downloading, although it currently does not display exact download percentage due to python faster-whisper dependencies.
+### Challenges Encountered
+- Experienced runtime errors while working on hub animations, which has been frustrating.
+- The app occasionally hangs during refresh events, and I’m still investigating the root cause of this issue.
+- Faced challenges with node issues related to status indicators, which need to be resolved for better user feedback.
+- Struggled with ensuring a consistent monospace font across the app, which has been a minor but persistent annoyance.
 ## Reflections
 
-This month was a mixed bag. On one hand, I made substantial progress in migrating to PySide 6 and enhancing the user interface. On the other hand, the freezing issues and configuration file problems have been frustrating setbacks that have stalled some of my momentum. I was surprised by how much time I spent troubleshooting these issues, which has made me rethink my approach to error handling and refresh logic. I also found myself pondering the potential for allowing users to edit files directly within the app, which could open up new possibilities but also adds complexity.
+Looking back, I’m pleased with how much I was able to accomplish in terms of refactoring and feature implementation. The transition to PySide 6 has opened up new possibilities, but it hasn’t been without its challenges. The runtime errors and app hangs have been particularly disheartening, and I realize I need to dig deeper into these issues. I was surprised by how much time I spent on visual enhancements; while they’re important, I need to balance them with the core functionality of the app. Overall, I feel like I’m making progress, but there’s still a lot of work ahead to stabilize everything.
 
 ## Next Steps
 
-- Resolve the configuration file refresh issue to prevent data loss and freezing.
-- Improve error handling in the terminal-like window and enhance the animation control button's responsiveness.
-- Finalize the transcription model for Mac, weighing the options between Faster Whisper and Olama.
-- Address the font issue that has been lingering and affecting the overall aesthetic of the app.
+- Investigate and resolve the runtime errors related to hub animations.
+- Identify the cause of the app hanging during major updates and implement a fix.
+- Address the node issues concerning status indicators for better user feedback.
+- Work on ensuring the progress bar for whisper downloading accurately displays the percentage.
+- Focus on achieving a consistent use of the monospace font across the app.
 
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

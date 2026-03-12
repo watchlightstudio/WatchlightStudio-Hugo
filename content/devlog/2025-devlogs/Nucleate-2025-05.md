@@ -4,34 +4,35 @@ type: docs
 ---
 ## Overview
 
-This month was largely about diving into Blender for asset creation and terrain generation while also tackling some gameplay balancing issues. I spent a lot of time experimenting with various techniques for both environmental and character assets, which was a mix of exciting and frustrating. Upgrading my hardware gave me a bit of a boost, but I still faced challenges, particularly with rendering.
+This month was primarily focused on developing 3D assets and refining my workflow in Blender and Unity. I spent a lot of time creating environmental elements and experimenting with procedural generation techniques, while also addressing some technical challenges along the way. The shift to a grid-based mesh for roughing in geometry helped streamline the process, but I encountered several roadblocks that forced me to adapt my approach.
 
 ## Highlights & Progress
 
 ### Tools & Workflow
-- I upgraded my hardware from an AMD AM4 setup to an AM5 motherboard with a Ryzen 9 7900 CPU and DDR5 memory, which has improved my workflow significantly.
-- I tested Parsec as an alternative to TeamViewer for remote access, which I’m still evaluating for effectiveness.
-### Asset Creation
-- Focused on learning Blender, particularly for creating environmental assets and terrain generation.
-- Developed a system for procedurally generating paths using Bezier lines and instances of pre-made tiles.
-- Worked on terrain for grass, adapting techniques from a YouTube tutorial, although I encountered some rendering issues.
-- Created a geometry node for brick-like textures in Blender, which added some nice detail to my environments.
-- Simplified grass assets to address rendering issues, which seemed to help with performance.
-
+- Continued using Blender for creating environmental assets, landscapes, and the overworld, while Aseprite was utilized for initial 2D artwork.
+- A grid-based mesh was adopted for roughing in geometry, which simplified the layout process for the environment.
+- I prioritized hand-crafted assets to maintain polished progress, especially while dealing with issues related to Blender’s geometry nodes.
+### Systems & Features
+- Worked on specific areas including beach terrain, cave entrances, and rocky outcroppings, which helped define the overall environment.
+- Created non-environmental assets such as a lighthouse and a house to diversify the scene.
+- Implemented a geometry node to add a cobblestone-like texture with noise to certain path areas, enhancing visual detail.
+### Grass Rendering
+- Initially faced issues with pixel art representation in grass rendering, leading to a switch to a 2D polygon asset for better results.
+- Made adjustments to grass sprites' density to prevent overlaps with existing assets, and discussed plans to implement ray casting as a more robust solution for grass rendering.
 ### Technical Challenges
-- Faced difficulties with small, detailed assets in Blender, particularly with blending colors at different zones' interfaces and overlapping assets.
-- Implemented techniques for grass coloring based on surface texture normals and shader nodes, but still struggled with grass rendering issues.
-- Used ray casting to eliminate overlaps in asset blending, which has improved the overall visual quality.
+- Encountered difficulties with Blender's geometry nodes, particularly in procedural generation and managing rotation and height components.
+- Faced technical issues during a work conference due to remote setup problems with TeamViewer, prompting a trial of Parsec for remote access.
 ## Reflections
 
-This month was a mixed bag. On one hand, I made some solid progress in learning Blender and improving my asset creation pipeline. On the other hand, the rendering issues have been frustrating. I was surprised by how much the hardware upgrade impacted my workflow, but I still have a lot to learn about optimizing assets for performance. The decisions I made regarding gameplay adjustments feel necessary, but I’m still unsure about the best way to implement them effectively.
+Reflecting on the month working in Blender, I found that while the transition to a grid-based mesh improved my workflow, but the challenges with procedural generation were frustrating. I was surprised by how much time I spent troubleshooting Blender's geometry nodes, which sometimes felt like more of a hindrance than a help. The decision to focus on hand-crafted assets was a necessary one, but it also made me question how to effectively balance between 3D and 2D assets moving forward. The recent PC upgrade has introduced the speed of development, but I'm not sure it was quite worth the cost.
 
 ## Next Steps
 
-- Continue refining the grass rendering and blending techniques to achieve seamless transitions.
-- Further explore remote access solutions and finalize which one works best for my setup.
-- Address camera movement challenges in the fortress structure to enhance player navigation.
-- Dive deeper into creating more detailed assets while managing performance constraints.
+- Continue refining the use of procedural generation in Blender while addressing the roadblocks encountered this month.
+- Explore potential solutions for managing borders and boundary conditions for 2D assets in Unity.
+- Implement ray casting for grass rendering and assess its effectiveness in preventing overlaps.
+- Investigate the implications of the new PC setup on my overall development process.
+- Revisit the balance between 3D and 2D assets to determine the best approach for future projects.
 
 > Generated with `Nucleate by Watchlight Studio` — distilled from full transcription.
 ---

@@ -101,6 +101,37 @@ The Hub is your central dashboard in Nucleate, providing status, control, and qu
 </details>
 
 <details>
+<summary>Summaries</summary>
+<img src="/menu/summary_rebuild.png">
+
+### Summary Rebuild
+Reprocess or remove existing summaries with full control over content and preferences. Quickly rebuild a Daily, Weekly, or Monthly summary using the currently selected user mode and Insights, or safely delete transcripts and summaries without affecting original audio.
+
+1. #### Rebuild Summary
+	Regenerates a selected summary using the **current user mode, Insights, and preferences**.
+	- Select a summary from the tabbed menu
+	- Click **Rebuild** to regenerate content
+	- If **Autosync** is enabled, the rebuilt summary is pushed to all synchronized folders
+2. #### Push to Save
+	Pushes the selected summary to the user's directory. Useful in case you accidentally deleted a summary from your files and want to get it back.
+	- Select a summary from the tabbed menu
+	- Click **Push** to collect the cached summary and push to files
+	{{< callout type="warning" >}}  
+	Pushing a summary will overwrite any manual changes to the version currently saved to your machine and to Notion (if configured).
+	{{< /callout >}}
+
+3. #### Delete Summary
+	Permanently removes a summary and its supporting transcript.
+	- Select a summary from the tabbed menu
+	- Click **Delete** to remove:
+	    - The summary
+	    - The associated transcript
+	- Content will **not** be rebuilt
+	- The matching summary file in user folders can be safely deleted
+	- The **original audio file is preserved** in the Audio Archive
+</details>
+
+<details>
 <summary>Modes</summary>
 <img src="/menu/user_modes.png">
 
@@ -169,7 +200,12 @@ Settings here are adaptive: available options update automatically based on dete
 	- The active model is shown here for reference
 	- To change models, see **Ollama Backend** settings
 
-3. **OpenAI summarization**
+3. **Local profile**
+	- Controls the chunk length and total context used by the local model
+	- Pick from the dropdown menu to select summary quality or change in "Advanced Settings"
+	- Higher quality summaries require more memory
+
+4. **OpenAI summarization**
 	- When at least one summarizer is set to OpenAI, additional options become available
 	- Select from predefined OpenAI models or enter a custom model name manually
 	
@@ -177,21 +213,21 @@ Settings here are adaptive: available options update automatically based on dete
 	Local summarization is fully offline and private. OpenAI summarization uploads text to OpenAI’s servers and incurs usage-based costs.  
 	{{< /callout >}}
 
-4. #### Transcription services
+5. #### Transcription services
 	- Choose how audio is transcribed:
 	    - **CPU**
 	    - **GPU / MPS** (hardware accelerated)
 	    - **OpenAI**
 	- Available options are restricted automatically based on detected hardware
 
-5. **Transcription backend**
+6. **Transcription backend**
 	- **Faster-Whisper** (recommended for most users)
 	    - Optimized for speed and efficiency
 	    - Best choice for Windows and CPU-based workflows
 	- **Whisper**
 	    - Preferred on Apple Silicon Macs due to native Metal acceleration
 
-6. **Transcription model**
+7. **Transcription model**
 	- Select from available Whisper model sizes
 	- **Medium** is recommended by default when adequate hardware is detected
 	- Larger models improve accuracy but require more RAM/VRAM and time
@@ -208,7 +244,7 @@ Settings here are adaptive: available options update automatically based on dete
 	OpenAI transcription can become expensive for long recordings or large backlogs.  
 	{{< /callout >}}
 
-7. #### Diarization (speaker detection)
+8. #### Diarization (speaker detection)
 	- Select diarization compute:
 	    - **CPU**
 	    - **GPU** (when supported)
@@ -217,7 +253,7 @@ Settings here are adaptive: available options update automatically based on dete
 	- To enable these options:
 	    - Ensure **Speaker Detection** is enabled in the AI Settings panel
 
-8. #### Live memory & hardware state
+9. #### Live memory & hardware state
 	Real-time visibility into system resources:
 	- **VRAM / Unified Memory** (Apple Silicon)
 	- **System RAM**
@@ -384,7 +420,7 @@ These settings control **where Nucleate reads from, writes to, and how it manage
 	- Updates local files and Notion entries (if configured)
 	
 	{{< callout type="warning" >}}  
-	If you manually edit generated summaries, Autosync may overwrite those changes. Disable Autosync if you prefer to treat summaries as a starting point rather than a living document.  
+	If you manually edit generated summaries and then "Rebuild" a summary, Autosync will overwrite those changes..  
 	{{< /callout >}}
 
 <img src="/menu/file_sync_settings.png">
@@ -417,27 +453,6 @@ Manage recording saving properties, as well as synchronization of linked service
 	{{< callout type="warning" >}}  
 	Both actions may overwrite user-edited content in Notion. 
 	{{< /callout >}}
-
-<img src="/menu/summary_rebuild.png">
-
-### Summary Rebuild
-Reprocess or remove existing summaries with full control over content and preferences. Quickly rebuild a Daily, Weekly, or Monthly summary using the currently selected user mode and Insights, or safely delete transcripts and summaries without affecting original audio.
-
-1. #### Rebuild Summary
-	Regenerates a selected summary using the **current user mode, Insights, and preferences**.
-	- Select a summary from the tabbed menu
-	- Click **Rebuild** to regenerate content
-	- If **Autosync** is enabled, the rebuilt summary is pushed to all synchronized folders
-
-2. #### Delete Summary
-	Permanently removes a summary and its supporting transcript.
-	- Select a summary from the tabbed menu
-	- Click **Delete** to remove:
-	    - The summary
-	    - The associated transcript
-	- Content will **not** be rebuilt
-	- The matching summary file in user folders can be safely deleted
-	- The **original audio file is preserved** in the Audio Archive
 
 </details>
 
@@ -512,37 +527,28 @@ This page provides direct access to the prompt layers used by Nucleate’s core 
 
 1. **Select a base mode**  
     Choose an existing user mode to populate the Mode Builder fields. This is the recommended starting point for creating new modes.
-    
-2. **Define a unique Mode ID**  
+2. **Pick a Pipeline**  
+    Each mode has to adhere to either a "Full" or "Lite" pipeline
+    - "Full" pipelines require daily, weekly, and monthly prompts and will appear as new user modes
+    - "Lite" pipelines require only the "daily" prompts and are useful inside Nucleate Labs for one-off summaries
+3. **Define a unique Mode ID**  
     Each mode must have a unique identifier in order to be saved as a new mode.
     - Existing modes do not require their ID to be changed
     - Custom modes must use a new, unique key
-3. **Set the mode name**  
+4. **Set the mode name**  
     This is the user-facing name displayed throughout the UI.
-4. **Set the mode description**  
+5. **Set the mode description**  
     A short description explaining the intended use case of the mode.
 
 #### Daily Summary Prompts
 
-5. **Define Initial and Final prompts (Daily)**  
-    These prompts frame how daily summaries are constructed.
-    - The **Initial prompt** primes the model
-    - The **Final prompt** performs consolidation and formatting
+5. **Define Reinforcement prompts**  
+    These prompts frame how daily/weekly/monthly summaries are constructed. They do not need to be long and provide only pre-context before each summary.
     
 	{{< callout type="info" >}}  
-	The bracketed token **`[chunk]`** must remain unchanged. This placeholder is dynamically replaced with transcript content during processing.
+	The bracketed token **`[fact]`** must remain unchanged. This placeholder is dynamically replaced with transcript content during processing.
 	{{< /callout >}}
-
-#### Weekly & Monthly Summary Prompts
-
-6. **Define Initial and Final prompts (Weekly / Monthly)**  
-    These prompts control how content is aggregated across multiple sessions.
-    - Weekly and Monthly prompts may share structure or differ significantly
-    
-	{{< callout type="info" >}}  
-	As with Daily prompts, **`[chunk]` must remain unchanged**
-	{{< /callout >}}        
-
+  
 #### System Prompts
 
 7. **Define the Daily system prompt**  
@@ -599,10 +605,6 @@ Lab profiles allow you to combine user modes, summary types, models, and Insight
     - **OpenAI** — preconfigured models, with the option to manually enter others
     Available options depend on the selected backend.
     
-5. **Toggle two-pass summarization**  
-    When enabled, content is first passed through a lightweight cleanup step before summarization.  
-    This is recommended for Lab workflows that operate directly on raw transcripts or noisy input.
-
 <img src="/menu/nucleate_lab_preferences.png">
 
 #### Lab Preferences & Insights

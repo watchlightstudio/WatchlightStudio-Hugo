@@ -10,7 +10,7 @@ url: "/nucleate/setup-and-compatibility/hardware"
 Nucleate is available on both Windows and macOS and runs on modern versions of each OS. There is no planned Linux release at this time.
 
 ### In-app optimization
-Too many options? No problem. In the "AI Engine" settings panel, the one-button "Optimize" will sort you out and make recommendations based on OS and available hardware. You can also view persistent and peak hardware usage estimates in the same panel and adjust settings manually if desired.
+Too many options? No problem. In the "AI Model Settings" panel, the one-button "Optimize" will sort you out and make recommendations based on OS and available hardware. You can also view persistent and peak hardware usage estimates in the same panel and adjust settings manually if desired.
 
 
 ### Hardware recommendations

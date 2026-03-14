@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devlog/2026-devlogs/Nucleate-2026-02.md",
+                "file": "nucleate/04-using-nucleate/01-nucleate-menu.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Nucleate-2026-02"
+              "title": "01-nucleate-menu"
             }
           }
         ]
@@ -168,6 +168,8 @@
   },
   "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
+    "nucleate/03-setup-and-compatibility/02-nucleate-hardware-prerequisites.md",
+    "devlog/2026-devlogs/Nucleate-2026-02.md",
     "devlog/2025-devlogs/Nucleate-2025-12.md",
     "devlog/2026-devlogs/Nucleate-2026-01.md",
     "devlog/2025-devlogs/Nucleate-2025-11.md",
@@ -180,7 +182,6 @@
     "devlog/2025-devlogs/Nucleate-2025-04.md",
     "devlog/2026-devlogs/_index.md",
     "devlog/2025-devlogs/_index.md",
-    "devlog/2026-devlogs/Nucleate-2026-02.md",
     "devlog/2025-devlogs/Nucleate - 2025-04-14 (Weekly).md",
     "devlog/2025-devlogs/Nucleate - 2025-04-07 (Weekly).md",
     "devlog/2025-devlogs/Devlog-2025-05.md",
@@ -194,7 +195,6 @@
     "nucleate/04-using-nucleate/03-custom-modes.md",
     "Pasted image 20260226214828.png",
     "nucleate/02-how-it-works/01-nucleate-how-it-works.md",
-    "nucleate/01-overview/01-nucleate-background.md",
     "Untitled.base",
     "projects-and-tools/nucleate 1/04-using-nucleate",
     "projects-and-tools/nucleate 1/03-setup-and-compatibility",

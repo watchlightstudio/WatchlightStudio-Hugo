@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nucleate/04-using-nucleate/01-nucleate-menu.md",
+                "file": "nucleate/03-setup-and-compatibility/07-nucleate-notion.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "01-nucleate-menu"
+              "title": "07-nucleate-notion"
             }
           }
         ]
@@ -166,11 +166,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b90f1678e2a0267",
+  "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
+    "nucleate/04-using-nucleate/01-nucleate-menu.md",
     "nucleate/03-setup-and-compatibility/07-nucleate-notion.md",
     "nucleate/03-setup-and-compatibility/05-nucleate-ffmpeg-installation.md",
-    "nucleate/04-using-nucleate/01-nucleate-menu.md",
     "nucleate/03-setup-and-compatibility/_index.md",
     "nucleate/03-setup-and-compatibility/06-nucleate-cloud-workflow.md",
     "nucleate/03-setup-and-compatibility/02-nucleate-hardware-prerequisites.md",

@@ -458,7 +458,6 @@ Manage recording saving properties, as well as synchronization of linked service
 
 <details>
 <summary>Integrations</summary>
-### Integrations
 
 Nucleate integrates with third-party services to extend transcription, summarization, and note-sync workflows. All integration settings are optional and can be enabled or disabled independently.
 
@@ -484,7 +483,7 @@ Configure access to OpenAI-powered transcription or summarization features.
 
 #### Notion API
 
-Synchronize summaries to a Notion database.
+Synchronize summaries to a Notion database. See this page for [Notion setup](/nucleate/setup-and-compatibility/notion).
 
 1. Toggle **Notion Integration** on or off.  
 	When disabled, Nucleate will stop syncing to Notion even if credentials are present.    

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nucleate/_index.md",
+                "file": "about/_index.md",
                 "mode": "source",
                 "source": true
               },
@@ -168,13 +168,15 @@
   },
   "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
-    "nucleate/05-legal/_index.md",
+    "about/watchlight-origins.md",
+    "about/_index.md",
+    "about/about-the-dev.md",
     "nucleate/_index.md",
+    "nucleate/05-legal/_index.md",
     "nucleate/04-using-nucleate/_index.md",
     "nucleate/03-setup-and-compatibility/_index.md",
     "nucleate/02-how-it-works/_index.md",
     "nucleate/01-overview/_index.md",
-    "about/about-the-dev.md",
     "nucleate/03-setup-and-compatibility/07-nucleate-notion.md",
     "nucleate/04-using-nucleate/01-nucleate-menu.md",
     "nucleate/03-setup-and-compatibility/05-nucleate-ffmpeg-installation.md",
@@ -192,8 +194,6 @@
     "devlog/2025-devlogs/Nucleate-2025-05.md",
     "devlog/2025-devlogs/Nucleate-2025-04.md",
     "devlog/2026-devlogs/_index.md",
-    "devlog/2025-devlogs/_index.md",
-    "devlog/2025-devlogs/Nucleate - 2025-04-14 (Weekly).md",
     "Pasted image 20260226214828.png",
     "Untitled.base",
     "projects-and-tools/nucleate 1/04-using-nucleate",

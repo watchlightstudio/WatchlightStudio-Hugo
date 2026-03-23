@@ -3,7 +3,7 @@ type: docs
 weight: 4
 ---
 ## About the Dev
-I'm a solo developer operating out of Oregon. I've lived here with my wife and dog for the last five years and have loved every minute of it, seasonal rain included.
+My name is Daniel. I'm a solo developer operating out of Oregon. I've lived here with my wife and dog for the last five years and have loved every minute of it, seasonal rain included.
 
 I'm trained as a chemist and am an engineer in my day job. Par for the course, I started a company that doesn't match either of those roles... Although I'm not particularly proficient, I can manage in both C# and Python. Fortunately, game engines like Unity and Godot are sufficiently forgiving nowadays that pseudo-devs like me can still get by. It's still a delight and personal victory when scripts work on the first try.
 

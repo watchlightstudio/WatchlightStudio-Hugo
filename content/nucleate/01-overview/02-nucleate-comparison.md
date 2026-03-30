@@ -5,6 +5,19 @@ weight: 2
 slug: "compare"
 url: "/nucleate/overview/compare"
 ---
+
+## Who Nucleate _Is_ Built For
+
+Nucleate _is_ a good fit if you:
+- Think out loud and record frequently    
+- Want notes that organize themselves over time    
+- Care about file ownership, privacy, and local-first workflows    
+- Use Markdown, Obsidian, or Notion    
+- Prefer tools that work quietly in the background    
+- Are comfortable tuning settings once and letting things run    
+
+If you’ve ever wished your audio notes turned into usable project history without constant babysitting, Nucleate was built for you.
+
 ## Who Nucleate _Is Not_ Built For
 
 Nucleate is designed for people who want their audio turned into structured knowledge with minimal friction. If that’s not your workflow, it may not be the right tool for you.
@@ -18,18 +31,6 @@ Nucleate is designed for people who want their audio turned into structured know
 - Expect one-click results without understanding performance tradeoffs    
 
 Nucleate favors **automation, ownership, and long-term clarity** over interactivity and polish.
-
-## Who Nucleate _Is_ Built For
-
-Nucleate _is_ a good fit if you:
-- Think out loud and record frequently    
-- Want notes that organize themselves over time    
-- Care about file ownership, privacy, and local-first workflows    
-- Use Markdown, Obsidian, or Notion    
-- Prefer tools that work quietly in the background    
-- Are comfortable tuning settings once and letting things run    
-
-If you’ve ever wished your audio notes turned into usable project history without constant babysitting, Nucleate was built for you.
 
 ## How Nucleate Compares
 Nucleate is not a meeting recorder or a writing assistant — it’s an autonomous note engine.  

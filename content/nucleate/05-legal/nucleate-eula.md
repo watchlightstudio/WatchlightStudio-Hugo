@@ -2,7 +2,6 @@
 linkTitle: "EULA"
 type: docs
 weight: 9
-slug: "eula"
 ---
 ## END-USER LICENSE AGREEMENT
 END-USER LICENSE AGREEMENT (EULA) FOR NUCLEATE  

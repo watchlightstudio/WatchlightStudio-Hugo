@@ -13,23 +13,23 @@ Nucleate is the product of months of building, tuning, testing—and re-inventin
 >Not really.
 >
 >Did I manage to make it hard anyway?
->Absolutely!
+>Oh yeah.
 
 All told, Nucleate has been written (or rewritten) three times.
 
-The **first version** was a backend-only set of scripts: a simple pipeline that transcribed my Obsidian audio notes and produced short summaries. It worked—but only for _me_. No UI, no flexibility, no ambition beyond “get text out.”
+The **first version** was a backend-only set of scripts and a simple pipeline that transcribed audio into short summaries. It worked—but only for _me_. No UI, no flexibility, no goals beyond just helping document early projects.
 
-The **second version** became a Tkinter-based tray app. This is where Nucleate started to feel like a product instead of a script. Customization appeared. Early “special notes” were introduced (the early version of today’s _Insights_). Tagging, config management, and basic AI engine flexibility followed.
+The **second version** was a Tkinter-based tray app and is where Nucleate started to feel like a product. Very early customization appeared with a few different user modes. Early “special notes” were introduced (the early version of today’s _Insights_). Tagging, config management, and basic AI engine flexibility followed.
 
-This phase forced a lot of “responsible developer” growth—cleaner data handling, fewer assumptions, better structure. At the time, I genuinely thought this version (then called **Echo**) might ship as a small, focused devlog tool.
+This phase forced a lot of “responsible developer” growth—cleaner data handling, better config management, avoiding stale data, etc. At the time, I genuinely thought this version (then called **Echo**) might ship as a small, focused devlog and journaling-only tool. I brought it to the point of customizing animations, Tkinter dark mode (which was very painful, by the way), and individual styling of every single modal toplevel.
 
 And yet, scope creep...
 
-The **third version** was a full reset. As features expanded, Tkinter stopped being the right foundation. I migrated the app to PySide6 and rebranded the project from _Echo_ to **Nucleate**. What I thought was a “finished” app was actually noodle after noodle of spaghetti code.
+The **third version** was a full reset. I'd way outgrown Tkinter and decided that I'd short changed the app by stopping at "devlog tool." I migrated to PySide6 and rebranded the project from _Echo_ to **Nucleate**. Migration require rework of every panel and quickly revealed that my "finished" app was just trenchcoat spaghetti code.
 
-Only after this third iteration did the app really start to mature. Deep customization, a full suite of Insights, diarization, cross-platform support, automated setup flows, proper error handling, state management, in-app recording, and far more flexibility than the original vision allowed. Content and customization blossomed.
+Only after this third iteration did the app really start to mature. Deep customization, a full suite of Insights, diarization, cross-platform support, automated setup flows, proper error handling, state management, in-app recording, Windows + macOS support, and far more flexibility than the original vision allowed. Content and customization blossomed.
 
->Nucleate isn’t the result of chasing features—it’s the result of chasing clarity.
+>It wasn't really the intent, but Nucleate became the product of "completionist" compulsion and gamified code. I wanted it done and to feel like I pushed it all the way to the endpoint.
 
 And now, here we are. Nucleate is entering beta—and for the first time, it feels _ready to be shared_.
 

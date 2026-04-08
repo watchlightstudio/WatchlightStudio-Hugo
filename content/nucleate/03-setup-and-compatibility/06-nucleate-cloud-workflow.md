@@ -6,7 +6,7 @@ url: "/nucleate/setup-and-compatibility/cloud"
 ---
 ## Cloud-based workflow and mobile integration
 
-Nucleate can be used entirely hands-free with a cloud-based workflow, allowing you to **record audio on your phone anywhere** and have it automatically transcribed and summarized on your primary machine.
+Nucleate can be used entirely hands-free with a cloud-based workflow, allowing you to **record audio on your phone** and have it automatically transcribed and summarized on your primary machine.
 
 This approach works with any major cloud storage provider (Google Drive, OneDrive, Box, Dropbox, etc.) and does not require paid apps. Premium sync or recording apps can improve reliability and reduce ads, but are optional.
 
@@ -15,8 +15,6 @@ Once configured, this workflow is highly robust and well suited for:
 - Commute reflections
 - Meetings or lectures away from your desk
 - Quick, unplanned recordings
-
-The goal is simple: **capture thoughts when they happen**, without managing files manually.
 
 ## Core cloud-based workflow
 
@@ -81,7 +79,7 @@ Detailed iOS setup examples will be added in a future update.
 
 ## Example: Box + Obsidian workflow (recommended)
 
-This is the author’s primary workflow and is well suited for users who already use Obsidian.
+This is my primary workflow and is well suited for users who already use Obsidian.
 
 ### Desktop setup
 
@@ -114,4 +112,4 @@ If Nucleate is configured to archive processed audio, completed recordings will 
 
 ## Summary
 
-Cloud-based workflows allow Nucleate to function as a **mobile-first capture tool** with zero manual file handling. Once configured, recording is fast, frictionless, and reliable — making it easier to build consistent habits around audio notes.
+It may sound a bit scary, but once setup this process is extremely robust and makes it easy to whip out your phone on the road, on a walk, or during other quiet time. Being mobile makes it easy to work "on the fly" without having to schedule time to sit down, record, and move files around. Make it easy on yourself - you're already working hard enough!

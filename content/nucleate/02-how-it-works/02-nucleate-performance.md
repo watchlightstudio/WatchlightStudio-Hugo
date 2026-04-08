@@ -15,6 +15,8 @@ In-app summarization performance is measured in tokens per second (TPS). On aver
 
 In general, running local models is less expensive than running with OpenAI API services. If Nucleate is configured to use OpenAI, the default model is set to GPT3.5-turbo, which is a good balance of quality vs cost. OpenAI charges differently for input vs output tokens, but the approximate cost is ~0.57M tokens/dollar (as of July 2025). The cost of running locally varies, but estimates are provided below.
 
+I left the OpenAI model selection editable and deliberately futureproofed such that you can manually enter the most to-date models inside Nucleate. Don't wait for me to release a new version to get the best-of-the-best, just plug and play!
+
 ```bash
 Running locally and assuming 250W device, 0.21 cents/kWh
 100 TPS => 6.86M tokens/dollar  
@@ -51,7 +53,7 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 </details>
 
 ## Transcription performance (speed multiplier)
-In-app transcription performance is measured as a simple ratio of transcription speed vs audio file length. If it takes 18s to transcribe a 180s audio file, the multiplier is 10x. Similar to TPS, more efficient hardware gives higher multipliers, which reduces the time required to perform analysis, energy, and cost.
+In-app transcription performance is measured as a ratio of transcription speed vs audio file length. If it takes 18s to transcribe a 180s audio file, the multiplier is 10x. Similar to TPS, more efficient hardware gives higher multipliers, which reduces the time required to perform analysis, energy, and cost.
 
 There are two possible backends for transcription, Whisper and Faster-Whisper. Whisper is natively compatible on both Mac and Windows and enables hardware acceleration on both. Faster-Whisper is optimized on Windows and enables slight speed improvements for GPU-accelerated support and substantial improvements on CPU-only transcription.
 	{{< callout type="info" >}}

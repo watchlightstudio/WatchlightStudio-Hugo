@@ -8,7 +8,7 @@ url: "/nucleate/legal"
 ## The Fine Print
 Here you’ll find Nucleate’s license, terms, and third-party attributions.
 
-Nothing hidden, nothing unusual — just the legal details that keep everything transparent and above board.
+Nothing hidden, nothing unusual — just being transparent about what's inside.
 
 >
 {{< cards >}}

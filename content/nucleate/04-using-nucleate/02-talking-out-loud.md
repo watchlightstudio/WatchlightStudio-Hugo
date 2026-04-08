@@ -11,10 +11,10 @@ Nucleate is an engine — but the content always comes from you. That’s what m
 
 > You have your own voice, your own style, and content that’s uniquely yours.
 
-For many people, talking out loud can feel strange at first, especially when you’re by yourself. I’ve found the best results come from not overthinking it. Don’t worry about polish. Just narrate your thoughts.
+For many people, talking out loud can feel strange, especially when you’re by yourself. I’ve found the best results come from not overthinking it. Don’t worry about polish. Just narrate your thoughts and start talking.
 
 I stumble through ideas like anyone else — pauses, backtracking, broken sentences and all. That’s fine. The models are built to handle it.
 
-My personal sweet spot is a 10–20 minute recording during my commute. Nucleate was developed around recordings of this length, and I tuned my own “Solo Dev” mode to sound like me. For daily notes, I usually talk through what I worked on, what I’m struggling with, and what’s next.
+My personal sweet spot is a 10–20 minute recording during my commute. Nucleate was developed around recordings of this length, and I tuned my own “Solo Dev” mode to sound like me. For daily notes, I usually talk through what I did and what I'm planning to do. I'll deviate occasionally to talk about new projects or business-related content and just let it get pulled into the Nucleate engine.
 
 You can jump straight into content without context, but keep in mind that daily summaries sometimes lack enough background to fully interpret what you mean. Weekly and monthly rollups pull from prior summaries and do a much better job of connecting the dots over time.

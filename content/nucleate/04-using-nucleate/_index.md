@@ -6,9 +6,9 @@ slug: "help"
 url: "/nucleate/help"
 ---
 ## Make it Yours
-Once Nucleate is set up, it works quietly in the background — but there’s a lot of depth available if you want it.
+Nucleate is designed to work autonomously in the background, but there's a lot of depth available if you want it.
 
-This section explains day-to-day usage, menus, automation toggles, and customization options. Whether you want a hands-off experience or a finely tuned workflow, these pages help you shape Nucleate to fit how you think and work.
+This section explains menus and customization options. Explore to find a hands-off experience or tune to match your precise workflow. Shape Nucleate to work with your flow.
 
 >
 {{< cards >}}

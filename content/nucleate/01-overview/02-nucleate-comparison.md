@@ -20,7 +20,6 @@ If you’ve ever wished your audio notes turned into usable project history with
 
 ## Who Nucleate _Is Not_ Built For
 
-Nucleate is designed for people who want their audio turned into structured knowledge with minimal friction. If that’s not your workflow, it may not be the right tool for you.
 **Nucleate may not be a good fit if you:**
 - Want a live meeting assistant that joins Zoom or Teams calls    
 - Expect real-time transcripts or live captions    
@@ -34,11 +33,11 @@ Nucleate favors **automation, ownership, and long-term clarity** over interactiv
 
 ## How Nucleate Compares
 Nucleate is not a meeting recorder or a writing assistant — it’s an autonomous note engine.  
-Unlike tools like Otter or Descript, it runs locally, works offline, and is designed for long, unstructured audio such as dev logs, research notes, lectures, and journaling. And unlike Notion AI, it doesn’t live inside a document editor or lock you into a single platform.
+Unlike tools like Otter or Descript, it runs locally, works offline, and is designed for unstructured audio such as dev logs, research notes, lectures, and journaling. And unlike Notion AI, it doesn’t live inside a document editor or lock you into a single platform.
 
 Nucleate watches your files, processes them in the background, and produces structured Markdown that you fully control.
 
-Nucleate solves a different problem than most transcription tools. The comparison below highlights **architectural and workflow differences**, not quality judgments.
+Nucleate solves a different problem than most transcription tools. The comparison below highlights **architectural and workflow differences**, not quality judgments. Otter, Descript, and Notion AI are excellent at what they’re built for. Nucleate is just built with different goals in mind.
 
 |Feature / Focus|**Nucleate**|Otter.ai|Descript|Notion AI|
 |---|---|---|---|---|
@@ -58,4 +57,4 @@ Nucleate solves a different problem than most transcription tools. The compariso
 
 _Product comparisons are approximate and intended for illustrative purposes only. Actual functionality may differ based on configuration, updates, or usage patterns. All trademarks and product names belong to their respective owners._
 
-Otter, Descript, and Notion AI are excellent at what they’re built for. Nucleate is built for people who think out loud and want their ideas quietly organized over time.
+

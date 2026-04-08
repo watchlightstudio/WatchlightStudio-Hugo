@@ -6,9 +6,9 @@ slug: "how-it-works"
 url: "/nucleate/how-it-works"
 ---
 ## From Audio to Insight
-Nucleate follows a simple but powerful pipeline: audio goes in, structured notes come out — with no dashboards, no micromanagement, and no manual cleanup.
+At it's core, Nucleate is a pipeline for converting audio to structured, customized notes. Unlike conventional AI chat-based apps, it's designed to live in the background and self-regulate. It's not really intended for direct user engagement, but rather as a backpocket manager that "just works." It is especially powerful for users who record regularly, as it builds awareness/context based on current topics and activities.
 
-Here you’ll find a high-level look at how transcription, summarization, diarization, and Insights work together, along with performance considerations and advanced configuration options for power users.
+Here you’ll find a high-level summary of how transcription, summarization, diarization, and Insights work together, along with performance considerations and advanced configuration options.
 
 >
 {{< cards >}}

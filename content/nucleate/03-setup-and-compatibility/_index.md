@@ -6,9 +6,9 @@ slug: "setup-and-compatibility"
 url: "/nucleate/setup-and-compatibility"
 ---
 ## Get Running
-Nucleate is built to run on your hardware, on your terms. Whether you’re using local models, OpenAI services, or a mix of both, setup is straightforward and flexible.
+Nucleate is built to be a hyper-customizable engine. I wanted to give power to the user in this world of cloud-based services and designed it to support local-first models, OpenAI services, or a mix of both.
 
-This section covers installation, supported platforms, hardware and software requirements, and optional components like FFmpeg. If you’re wondering “will this work on my machine?”, this is the place to look.
+This section covers installation, supported platforms, hardware and software requirements, and optional components like FFmpeg. It also covers integrations and setups for Obsidian and Notion, powerful markdown-based note-taking platforms.
 
 >
 {{< cards >}}

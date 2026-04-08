@@ -6,13 +6,13 @@ slug: "compatibility-cheat-sheet"
 url: "/nucleate/setup-and-compatibility/compatibility-cheat-sheet"
 ---
 ## Compatibility Cheat Sheet
-This page provides a quick overview of which features are available on different hardware configurations. These indicators describe **capability and support**, not performance guarantees.
+This page provides a quick overview of which features are available on different hardware configurations. These indicators describe **capability and support** and are not performance guarantees.
 
-When possible, Nucleate automatically optimizes settings for your system.
+On first launch, Nucleate automatically optimizes settings for your system. You're welcome to change settings anytime, but performance may degrade.
 
 ### Recommended Configurations
 
-These configurations provide the best balance of compatibility, performance, and flexibility for local transcription, summarization, and analysis.
+These configurations provide the best balance of compatibility and performance for local transcription & summarization.
 
 |Capability ↓ /// Hardware → (>16GB RAM)|Win CUDA<sup>*</sup>|Metal Mac|Win No CUDA|Intel Mac|
 |---|---|---|---|---|
@@ -29,7 +29,7 @@ These configurations provide the best balance of compatibility, performance, and
 
 {{< callout type="info" >}}
 • <sup>*</sup>Windows CUDA (≥16GB RAM, ≥8GB VRAM)  
-• On Windows, Ollama Overdrive stores models in memory and benefits from ≥16GB of memory.  
+• On Windows, Ollama Overdrive stores models in memory. Benefits strongly from ≥16GB of memory.  
 • Faster-Whisper GPU acceleration is only available on Windows with CUDA.  
 • On macOS, GPU acceleration requires the Whisper backend and Apple Metal.  
 • Intel Macs cannot run Whisper or diarization models due to PyTorch limitations.  

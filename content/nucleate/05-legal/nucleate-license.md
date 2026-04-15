@@ -86,448 +86,451 @@ See https://www.gnu.org/licenses/lgpl-3.0.html for details.
 
 <details>
 <summary>The full list of dependencies for Nucleate (Windows w/ CUDA)</summary>
-aiohappyeyeballs==2.6.1
-aiohttp==3.13.3
-aiosignal==1.4.0
-alembic==1.17.2
-altgraph==0.17.5
-annotated-types==0.7.0
-anyio==4.12.0
-asteroid-filterbanks==0.4.0
-attrs==25.4.0
-av==16.0.1
-backports.tarfile==1.2.0
-certifi==2026.1.4
-cffi==2.0.0
-charset-normalizer==3.4.4
-click==8.3.1
-colorama==0.4.6
-coloredlogs==15.0.1
-colorlog==6.10.1
-contourpy==1.3.3
-ctranslate2==4.6.2
-cycler==0.12.1
-distro==1.9.0
-einops==0.8.1
-faster-whisper==1.2.1
-filelock==3.20.0
-flatbuffers==25.12.19
-fonttools==4.61.1
-frozenlist==1.8.0
-fsspec==2025.12.0
-googleapis-common-protos==1.72.0
-greenlet==3.3.0
-grpcio==1.76.0
-h11==0.16.0
-hf-xet==1.2.0
-httpcore==1.0.9
-httpx==0.28.1
-huggingface_hub==1.2.3
-humanfriendly==10.0
-idna==3.11
-importlib_metadata==8.7.1
-jaraco.classes==3.4.0
-jaraco.context==6.1.2
-jaraco.functools==4.4.0
-Jinja2==3.1.6
-jiter==0.12.0
-joblib==1.5.3
-julius==0.2.7
-keyring==25.7.0
-kiwisolver==1.4.9
-lightning==2.6.0
-lightning-utilities==0.15.2
-llvmlite==0.46.0
-Mako==1.3.10
-Markdown==3.10.2
-markdown-it-py==4.0.0
-MarkupSafe==2.1.5
-matplotlib==3.10.8
-mdurl==0.1.2
-more-itertools==10.8.0
-mpmath==1.3.0
-multidict==6.7.0
-mutagen==1.47.0
-networkx==3.6.1
-nltk==3.9.1
-notion-client==2.4.0
-numba==0.63.1
-numpy==2.3.5
-nvidia-ml-py==13.590.44
-ollama==0.4.7
-onnxruntime==1.23.2
-openai==2.14.0
-openai-whisper==20250625
-opentelemetry-api==1.39.1
-opentelemetry-exporter-otlp==1.39.1
-opentelemetry-exporter-otlp-proto-common==1.39.1
-opentelemetry-exporter-otlp-proto-grpc==1.39.1
-opentelemetry-exporter-otlp-proto-http==1.39.1
-opentelemetry-proto==1.39.1
-opentelemetry-sdk==1.39.1
-opentelemetry-semantic-conventions==0.60b1
-optuna==4.6.0
-packaging==25.0
-pandas==2.3.3
-pefile==2024.8.26
-pillow==12.0.0
-primePy==1.3
-propcache==0.4.1
-protobuf==6.33.2
-psutil==7.2.1
-pyannote-audio==4.0.3
-pyannote-core==6.0.1
-pyannote-database==6.1.1
-pyannote-metrics==4.0.0
-pyannote-pipeline==4.0.0
-pyannoteai-sdk==0.3.0
-pycparser==2.23
-pydantic==2.12.5
-pydantic_core==2.41.5
-Pygments==2.19.2
-pyinstaller==6.19.0
-pyinstaller-hooks-contrib==2026.3
-PyNaCl==1.6.2
-pyparsing==3.3.1
-pyreadline3==3.5.4
-PySide6==6.10.0
-PySide6_Addons==6.10.0
-PySide6_Essentials==6.10.0
-python-dateutil==2.9.0.post0
-pytorch-lightning==2.6.0
-pytorch-metric-learning==2.9.0
-pytz==2025.2
-pywin32-ctypes==0.2.3
-PyYAML==6.0.3
-regex==2025.11.3
-requests==2.32.3
-rich==14.2.0
-safetensors==0.7.0
-scikit-learn==1.8.0
-scipy==1.16.3
-shellingham==1.5.4
-shiboken6==6.10.0
-six==1.17.0
-sniffio==1.3.1
-sortedcontainers==2.4.0
-sounddevice==0.5.3
-soundfile==0.13.1
-SQLAlchemy==2.0.45
-sympy==1.14.0
-threadpoolctl==3.6.0
-tiktoken==0.12.0
-tokenizers==0.22.2
-toml==0.10.2
-tomli_w==1.2.0
-tomlkit==0.13.3
-torch==2.8.0+cu129
-torch-audiomentations==0.12.0
-torch_pitch_shift==1.2.5
-torchaudio==2.8.0+cu129
-torchcodec==0.7.0
-torchmetrics==1.8.2
-tqdm==4.67.1
-typer-slim==0.21.0
-typing-inspection==0.4.2
-typing_extensions==4.15.0
-tzdata==2025.3
-urllib3==2.6.2
-yarl==1.22.0
-zipp==3.23.0
+
+- aiohappyeyeballs==2.6.1  
+- aiohttp==3.13.3  
+- aiosignal==1.4.0  
+- alembic==1.17.2  
+- altgraph==0.17.5  
+- annotated-types==0.7.0  
+- anyio==4.12.0  
+- asteroid-filterbanks==0.4.0  
+- attrs==25.4.0  
+- av==16.0.1  
+- backports.tarfile==1.2.0  
+- certifi==2026.1.4  
+- cffi==2.0.0  
+- charset-normalizer==3.4.4  
+- click==8.3.1  
+- colorama==0.4.6  
+- coloredlogs==15.0.1  
+- colorlog==6.10.1  
+- contourpy==1.3.3  
+- ctranslate2==4.6.2  
+- cycler==0.12.1  
+- distro==1.9.0  
+- einops==0.8.1  
+- faster-whisper==1.2.1  
+- filelock==3.20.0  
+- flatbuffers==25.12.19  
+- fonttools==4.61.1  
+- frozenlist==1.8.0  
+- fsspec==2025.12.0  
+- googleapis-common-protos==1.72.0  
+- greenlet==3.3.0  
+- grpcio==1.76.0  
+- h11==0.16.0  
+- hf-xet==1.2.0  
+- httpcore==1.0.9  
+- httpx==0.28.1  
+- huggingface_hub==1.2.3  
+- humanfriendly==10.0  
+- idna==3.11  
+- importlib_metadata==8.7.1  
+- jaraco.classes==3.4.0  
+- jaraco.context==6.1.2  
+- jaraco.functools==4.4.0  
+- Jinja2==3.1.6  
+- jiter==0.12.0  
+- joblib==1.5.3  
+- julius==0.2.7  
+- keyring==25.7.0  
+- kiwisolver==1.4.9  
+- lightning==2.6.0  
+- lightning-utilities==0.15.2  
+- llvmlite==0.46.0  
+- Mako==1.3.10  
+- Markdown==3.10.2  
+- markdown-it-py==4.0.0  
+- MarkupSafe==2.1.5  
+- matplotlib==3.10.8  
+- mdurl==0.1.2  
+- more-itertools==10.8.0  
+- mpmath==1.3.0  
+- multidict==6.7.0  
+- mutagen==1.47.0  
+- networkx==3.6.1  
+- nltk==3.9.1  
+- notion-client==2.4.0  
+- numba==0.63.1  
+- numpy==2.3.5  
+- nvidia-ml-py==13.590.44  
+- ollama==0.4.7  
+- onnxruntime==1.23.2  
+- openai==2.14.0  
+- openai-whisper==20250625  
+- opentelemetry-api==1.39.1  
+- opentelemetry-exporter-otlp==1.39.1  
+- opentelemetry-exporter-otlp-proto-common==1.39.1  
+- opentelemetry-exporter-otlp-proto-grpc==1.39.1  
+- opentelemetry-exporter-otlp-proto-http==1.39.1  
+- opentelemetry-proto==1.39.1  
+- opentelemetry-sdk==1.39.1  
+- opentelemetry-semantic-conventions==0.60b1  
+- optuna==4.6.0  
+- packaging==25.0  
+- pandas==2.3.3  
+- pefile==2024.8.26  
+- pillow==12.0.0  
+- primePy==1.3  
+- propcache==0.4.1  
+- protobuf==6.33.2  
+- psutil==7.2.1  
+- pyannote-audio==4.0.3  
+- pyannote-core==6.0.1  
+- pyannote-database==6.1.1  
+- pyannote-metrics==4.0.0  
+- pyannote-pipeline==4.0.0  
+- pyannoteai-sdk==0.3.0  
+- pycparser==2.23  
+- pydantic==2.12.5  
+- pydantic_core==2.41.5  
+- Pygments==2.19.2  
+- pyinstaller==6.19.0  
+- pyinstaller-hooks-contrib==2026.3  
+- PyNaCl==1.6.2  
+- pyparsing==3.3.1  
+- pyreadline3==3.5.4  
+- PySide6==6.10.0  
+- PySide6_Addons==6.10.0  
+- PySide6_Essentials==6.10.0  
+- python-dateutil==2.9.0.post0  
+- pytorch-lightning==2.6.0  
+- pytorch-metric-learning==2.9.0  
+- pytz==2025.2  
+- pywin32-ctypes==0.2.3  
+- PyYAML==6.0.3  
+- regex==2025.11.3  
+- requests==2.32.3  
+- rich==14.2.0  
+- safetensors==0.7.0  
+- scikit-learn==1.8.0  
+- scipy==1.16.3  
+- shellingham==1.5.4  
+- shiboken6==6.10.0  
+- six==1.17.0  
+- sniffio==1.3.1  
+- sortedcontainers==2.4.0  
+- sounddevice==0.5.3  
+- soundfile==0.13.1  
+- SQLAlchemy==2.0.45  
+- sympy==1.14.0  
+- threadpoolctl==3.6.0  
+- tiktoken==0.12.0  
+- tokenizers==0.22.2  
+- toml==0.10.2  
+- tomli_w==1.2.0  
+- tomlkit==0.13.3  
+- torch==2.8.0+cu129  
+- torch-audiomentations==0.12.0  
+- torch_pitch_shift==1.2.5  
+- torchaudio==2.8.0+cu129  
+- torchcodec==0.7.0  
+- torchmetrics==1.8.2  
+- tqdm==4.67.1  
+- typer-slim==0.21.0  
+- typing-inspection==0.4.2  
+- typing_extensions==4.15.0  
+- tzdata==2025.3  
+- urllib3==2.6.2  
+- yarl==1.22.0  
+- zipp==3.23.0  
 </details>
 
 <details>
 <summary>The full list of dependencies for Nucleate (Windows CPU)</summary>
-aiohappyeyeballs==2.6.1
-aiohttp==3.13.3
-aiosignal==1.4.0
-alembic==1.18.3
-altgraph==0.17.5
-annotated-types==0.7.0
-anyio==4.12.1
-asteroid-filterbanks==0.4.0
-attrs==25.4.0
-av==16.1.0
-backports.tarfile==1.2.0
-certifi==2026.1.4
-cffi==2.0.0
-charset-normalizer==3.4.4
-click==8.3.1
-colorama==0.4.6
-coloredlogs==15.0.1
-colorlog==6.10.1
-contourpy==1.3.3
-ctranslate2==4.6.3
-cycler==0.12.1
-distro==1.9.0
-einops==0.8.2
-faster-whisper==1.2.1
-filelock==3.20.0
-flatbuffers==25.12.19
-fonttools==4.61.1
-frozenlist==1.8.0
-fsspec==2025.12.0
-googleapis-common-protos==1.72.0
-greenlet==3.3.1
-grpcio==1.76.0
-h11==0.16.0
-hf-xet==1.2.0
-httpcore==1.0.9
-httpx==0.28.1
-huggingface_hub==1.3.5
-humanfriendly==10.0
-idna==3.11
-importlib_metadata==8.7.1
-jaraco.classes==3.4.0
-jaraco.context==6.1.2
-jaraco.functools==4.4.0
-Jinja2==3.1.6
-jiter==0.12.0
-joblib==1.5.3
-julius==0.2.7
-keyring==25.7.0
-kiwisolver==1.4.9
-lightning==2.6.1
-lightning-utilities==0.15.2
-llvmlite==0.46.0
-Mako==1.3.10
-Markdown==3.10.2
-markdown-it-py==4.0.0
-MarkupSafe==2.1.5
-matplotlib==3.10.8
-mdurl==0.1.2
-more-itertools==10.8.0
-mpmath==1.3.0
-multidict==6.7.1
-mutagen==1.47.0
-networkx==3.6.1
-nltk==3.9.1
-notion-client==2.4.0
-numba==0.63.1
-numpy==2.3.5
-ollama==0.4.7
-onnxruntime==1.23.2
-openai==2.16.0
-openai-whisper==20250625
-opentelemetry-api==1.39.1
-opentelemetry-exporter-otlp==1.39.1
-opentelemetry-exporter-otlp-proto-common==1.39.1
-opentelemetry-exporter-otlp-proto-grpc==1.39.1
-opentelemetry-exporter-otlp-proto-http==1.39.1
-opentelemetry-proto==1.39.1
-opentelemetry-sdk==1.39.1
-opentelemetry-semantic-conventions==0.60b1
-optuna==4.7.0
-packaging==26.0
-pandas==3.0.0
-pefile==2024.8.26
-pillow==12.1.0
-primePy==1.3
-propcache==0.4.1
-protobuf==6.33.5
-psutil==7.2.1
-pyannote-audio==4.0.3
-pyannote-core==6.0.1
-pyannote-database==6.1.1
-pyannote-metrics==4.0.0
-pyannote-pipeline==4.0.0
-pyannoteai-sdk==0.4.0
-pycparser==3.0
-pydantic==2.12.5
-pydantic_core==2.41.5
-Pygments==2.19.2
-pyinstaller==6.18.0
-pyinstaller-hooks-contrib==2026.0
-PyNaCl==1.6.2
-pyparsing==3.3.2
-pyreadline3==3.5.4
-PySide6==6.10.0
-PySide6_Addons==6.10.0
-PySide6_Essentials==6.10.0
-python-dateutil==2.9.0.post0
-pytorch-lightning==2.6.1
-pytorch-metric-learning==2.9.0
-pywin32-ctypes==0.2.3
-PyYAML==6.0.3
-regex==2026.1.15
-requests==2.32.3
-rich==14.3.1
-safetensors==0.7.0
-scikit-learn==1.8.0
-scipy==1.17.0
-shellingham==1.5.4
-shiboken6==6.10.0
-six==1.17.0
-sniffio==1.3.1
-sortedcontainers==2.4.0
-sounddevice==0.5.5
-soundfile==0.13.1
-SQLAlchemy==2.0.46
-sympy==1.14.0
-threadpoolctl==3.6.0
-tiktoken==0.12.0
-tokenizers==0.22.2
-toml==0.10.2
-tomli_w==1.2.0
-tomlkit==0.13.3
-torch==2.8.0+cpu
-torch-audiomentations==0.12.0
-torch_pitch_shift==1.2.5
-torchaudio==2.8.0+cpu
-torchcodec==0.7.0
-torchmetrics==1.8.2
-tqdm==4.67.2
-typer-slim==0.21.1
-typing-inspection==0.4.2
-typing_extensions==4.15.0
-tzdata==2025.3
-urllib3==2.6.3
-yarl==1.22.0
-zipp==3.23.0
+
+- aiohappyeyeballs==2.6.1  
+- aiohttp==3.13.3  
+- aiosignal==1.4.0  
+- alembic==1.18.3  
+- altgraph==0.17.5  
+- annotated-types==0.7.0  
+- anyio==4.12.1  
+- asteroid-filterbanks==0.4.0  
+- attrs==25.4.0  
+- av==16.1.0  
+- backports.tarfile==1.2.0  
+- certifi==2026.1.4  
+- cffi==2.0.0  
+- charset-normalizer==3.4.4  
+- click==8.3.1  
+- colorama==0.4.6  
+- coloredlogs==15.0.1  
+- colorlog==6.10.1  
+- contourpy==1.3.3  
+- ctranslate2==4.6.3  
+- cycler==0.12.1  
+- distro==1.9.0  
+- einops==0.8.2  
+- faster-whisper==1.2.1  
+- filelock==3.20.0  
+- flatbuffers==25.12.19  
+- fonttools==4.61.1  
+- frozenlist==1.8.0  
+- fsspec==2025.12.0  
+- googleapis-common-protos==1.72.0  
+- greenlet==3.3.1  
+- grpcio==1.76.0  
+- h11==0.16.0  
+- hf-xet==1.2.0  
+- httpcore==1.0.9  
+- httpx==0.28.1  
+- huggingface_hub==1.3.5  
+- humanfriendly==10.0  
+- idna==3.11  
+- importlib_metadata==8.7.1  
+- jaraco.classes==3.4.0  
+- jaraco.context==6.1.2  
+- jaraco.functools==4.4.0  
+- Jinja2==3.1.6  
+- jiter==0.12.0  
+- joblib==1.5.3  
+- julius==0.2.7  
+- keyring==25.7.0  
+- kiwisolver==1.4.9  
+- lightning==2.6.1  
+- lightning-utilities==0.15.2  
+- llvmlite==0.46.0  
+- Mako==1.3.10  
+- Markdown==3.10.2  
+- markdown-it-py==4.0.0  
+- MarkupSafe==2.1.5  
+- matplotlib==3.10.8  
+- mdurl==0.1.2  
+- more-itertools==10.8.0  
+- mpmath==1.3.0  
+- multidict==6.7.1  
+- mutagen==1.47.0  
+- networkx==3.6.1  
+- nltk==3.9.1  
+- notion-client==2.4.0  
+- numba==0.63.1  
+- numpy==2.3.5  
+- ollama==0.4.7  
+- onnxruntime==1.23.2  
+- openai==2.16.0  
+- openai-whisper==20250625  
+- opentelemetry-api==1.39.1  
+- opentelemetry-exporter-otlp==1.39.1  
+- opentelemetry-exporter-otlp-proto-common==1.39.1  
+- opentelemetry-exporter-otlp-proto-grpc==1.39.1  
+- opentelemetry-exporter-otlp-proto-http==1.39.1  
+- opentelemetry-proto==1.39.1  
+- opentelemetry-sdk==1.39.1  
+- opentelemetry-semantic-conventions==0.60b1  
+- optuna==4.7.0  
+- packaging==26.0  
+- pandas==3.0.0  
+- pefile==2024.8.26  
+- pillow==12.1.0  
+- primePy==1.3  
+- propcache==0.4.1  
+- protobuf==6.33.5  
+- psutil==7.2.1  
+- pyannote-audio==4.0.3  
+- pyannote-core==6.0.1  
+- pyannote-database==6.1.1  
+- pyannote-metrics==4.0.0  
+- pyannote-pipeline==4.0.0  
+- pyannoteai-sdk==0.4.0  
+- pycparser==3.0  
+- pydantic==2.12.5  
+- pydantic_core==2.41.5  
+- Pygments==2.19.2  
+- pyinstaller==6.18.0  
+- pyinstaller-hooks-contrib==2026.0  
+- PyNaCl==1.6.2  
+- pyparsing==3.3.2  
+- pyreadline3==3.5.4  
+- PySide6==6.10.0  
+- PySide6_Addons==6.10.0  
+- PySide6_Essentials==6.10.0  
+- python-dateutil==2.9.0.post0  
+- pytorch-lightning==2.6.1  
+- pytorch-metric-learning==2.9.0  
+- pywin32-ctypes==0.2.3  
+- PyYAML==6.0.3  
+- regex==2026.1.15  
+- requests==2.32.3  
+- rich==14.3.1  
+- safetensors==0.7.0  
+- scikit-learn==1.8.0  
+- scipy==1.17.0  
+- shellingham==1.5.4  
+- shiboken6==6.10.0  
+- six==1.17.0  
+- sniffio==1.3.1  
+- sortedcontainers==2.4.0  
+- sounddevice==0.5.5  
+- soundfile==0.13.1  
+- SQLAlchemy==2.0.46  
+- sympy==1.14.0  
+- threadpoolctl==3.6.0  
+- tiktoken==0.12.0  
+- tokenizers==0.22.2  
+- toml==0.10.2  
+- tomli_w==1.2.0  
+- tomlkit==0.13.3  
+- torch==2.8.0+cpu  
+- torch-audiomentations==0.12.0  
+- torch_pitch_shift==1.2.5  
+- torchaudio==2.8.0+cpu  
+- torchcodec==0.7.0  
+- torchmetrics==1.8.2  
+- tqdm==4.67.2  
+- typer-slim==0.21.1  
+- typing-inspection==0.4.2  
+- typing_extensions==4.15.0  
+- tzdata==2025.3  
+- urllib3==2.6.3  
+- yarl==1.22.0  
+- zipp==3.23.0  
 </details>
 
 <details>
 <summary>The full list of dependencies for Nucleate (macOS Metal)</summary>
-aiohappyeyeballs==2.6.1
-aiohttp==3.13.3
-aiosignal==1.4.0
-alembic==1.18.4
-altgraph==0.17.5
-annotated-doc==0.0.4
-annotated-types==0.7.0
-anyio==4.12.1
-asteroid-filterbanks==0.4.0
-attrs==25.4.0
-av==16.1.0
-backports.tarfile==1.2.0
-certifi==2026.1.4
-cffi==2.0.0
-charset-normalizer==3.4.4
-click==8.3.1
-colorlog==6.10.1
-contourpy==1.3.3
-ctranslate2==4.7.1
-cycler==0.12.1
-distro==1.9.0
-einops==0.8.2
-faster-whisper==1.2.1
-filelock==3.24.1
-flatbuffers==25.12.19
-fonttools==4.61.1
-frozenlist==1.8.0
-fsspec==2026.2.0
-googleapis-common-protos==1.72.0
-grpcio==1.78.0
-h11==0.16.0
-hf-xet==1.2.0
-httpcore==1.0.9
-httpx==0.28.1
-huggingface_hub==1.4.1
-idna==3.11
-importlib_metadata==8.7.1
-jaraco.classes==3.4.0
-jaraco.context==6.1.2
-jaraco.functools==4.4.0
-Jinja2==3.1.6
-jiter==0.13.0
-joblib==1.5.3
-julius==0.2.7
-keyring==25.7.0
-kiwisolver==1.4.9
-lightning==2.6.1
-lightning-utilities==0.15.2
-llvmlite==0.46.0
-macholib==1.16.4
-Mako==1.3.10
-Markdown==3.10.2
-markdown-it-py==4.0.0
-MarkupSafe==3.0.3
-matplotlib==3.10.8
-mdurl==0.1.2
-more-itertools==10.8.0
-mpmath==1.3.0
-multidict==6.7.1
-mutagen==1.47.0
-networkx==3.6.1
-nltk==3.9.1
-notion-client==2.4.0
-Nuitka==4.0.8
-numba==0.63.1
-numpy==2.3.5
-ollama==0.4.7
-onnxruntime==1.24.1
-openai==2.21.0
-openai-whisper==20250625
-opentelemetry-api==1.39.1
-opentelemetry-exporter-otlp==1.39.1
-opentelemetry-exporter-otlp-proto-common==1.39.1
-opentelemetry-exporter-otlp-proto-grpc==1.39.1
-opentelemetry-exporter-otlp-proto-http==1.39.1
-opentelemetry-proto==1.39.1
-opentelemetry-sdk==1.39.1
-opentelemetry-semantic-conventions==0.60b1
-optuna==4.7.0
-packaging==26.0
-pandas==3.0.0
-pillow==12.1.1
-primePy==1.3
-propcache==0.4.1
-protobuf==6.33.5
-psutil==7.2.1
-pyannote-audio==4.0.4
-pyannote-core==6.0.1
-pyannote-database==6.1.1
-pyannote-metrics==4.0.0
-pyannote-pipeline==4.0.0
-pyannoteai-sdk==0.4.0
-pycparser==3.0
-pydantic==2.12.5
-pydantic_core==2.41.5
-Pygments==2.19.2
-pyinstaller==6.19.0
-pyinstaller-hooks-contrib==2026.1
-PyNaCl==1.6.2
-pyparsing==3.3.2
-PySide6==6.10.0
-PySide6_Addons==6.10.0
-PySide6_Essentials==6.10.0
-python-dateutil==2.9.0.post0
-pytorch-lightning==2.6.1
-pytorch-metric-learning==2.9.0
-PyYAML==6.0.3
-regex==2026.1.15
-requests==2.32.5
-rich==14.3.2
-safetensors==0.7.0
-scikit-learn==1.8.0
-scipy==1.17.0
-shellingham==1.5.4
-shiboken6==6.10.0
-six==1.17.0
-sniffio==1.3.1
-sortedcontainers==2.4.0
-sounddevice==0.5.3
-soundfile==0.13.1
-SQLAlchemy==2.0.46
-sympy==1.14.0
-threadpoolctl==3.6.0
-tiktoken==0.12.0
-tokenizers==0.22.2
-toml==0.10.2
-tomli_w==1.2.0
-tomlkit==0.13.3
-torch==2.10.0
-torch-audiomentations==0.12.0
-torch_pitch_shift==1.2.5
-torchaudio==2.10.0
-torchcodec==0.10.0
-torchmetrics==1.8.2
-tqdm==4.67.3
-typer==0.23.1
-typer-slim==0.23.1
-typing-inspection==0.4.2
-typing_extensions==4.15.0
-urllib3==2.6.3
-yarl==1.22.0
-zipp==3.23.0
+
+- aiohappyeyeballs==2.6.1  
+- aiohttp==3.13.3  
+- aiosignal==1.4.0  
+- alembic==1.18.4  
+- altgraph==0.17.5  
+- annotated-doc==0.0.4  
+- annotated-types==0.7.0  
+- anyio==4.12.1  
+- asteroid-filterbanks==0.4.0  
+- attrs==25.4.0  
+- av==16.1.0  
+- backports.tarfile==1.2.0  
+- certifi==2026.1.4  
+- cffi==2.0.0  
+- charset-normalizer==3.4.4  
+- click==8.3.1  
+- colorlog==6.10.1  
+- contourpy==1.3.3  
+- ctranslate2==4.7.1  
+- cycler==0.12.1  
+- distro==1.9.0  
+- einops==0.8.2  
+- faster-whisper==1.2.1  
+- filelock==3.24.1  
+- flatbuffers==25.12.19  
+- fonttools==4.61.1  
+- frozenlist==1.8.0  
+- fsspec==2026.2.0  
+- googleapis-common-protos==1.72.0  
+- grpcio==1.78.0  
+- h11==0.16.0  
+- hf-xet==1.2.0  
+- httpcore==1.0.9  
+- httpx==0.28.1  
+- huggingface_hub==1.4.1  
+- idna==3.11  
+- importlib_metadata==8.7.1  
+- jaraco.classes==3.4.0  
+- jaraco.context==6.1.2  
+- jaraco.functools==4.4.0  
+- Jinja2==3.1.6  
+- jiter==0.13.0  
+- joblib==1.5.3  
+- julius==0.2.7  
+- keyring==25.7.0  
+- kiwisolver==1.4.9  
+- lightning==2.6.1  
+- lightning-utilities==0.15.2  
+- llvmlite==0.46.0  
+- macholib==1.16.4  
+- Mako==1.3.10  
+- Markdown==3.10.2  
+- markdown-it-py==4.0.0  
+- MarkupSafe==3.0.3  
+- matplotlib==3.10.8  
+- mdurl==0.1.2  
+- more-itertools==10.8.0  
+- mpmath==1.3.0  
+- multidict==6.7.1  
+- mutagen==1.47.0  
+- networkx==3.6.1  
+- nltk==3.9.1  
+- notion-client==2.4.0  
+- Nuitka==4.0.8  
+- numba==0.63.1  
+- numpy==2.3.5  
+- ollama==0.4.7  
+- onnxruntime==1.24.1  
+- openai==2.21.0  
+- openai-whisper==20250625  
+- opentelemetry-api==1.39.1  
+- opentelemetry-exporter-otlp==1.39.1  
+- opentelemetry-exporter-otlp-proto-common==1.39.1  
+- opentelemetry-exporter-otlp-proto-grpc==1.39.1  
+- opentelemetry-exporter-otlp-proto-http==1.39.1  
+- opentelemetry-proto==1.39.1  
+- opentelemetry-sdk==1.39.1  
+- opentelemetry-semantic-conventions==0.60b1  
+- optuna==4.7.0  
+- packaging==26.0  
+- pandas==3.0.0  
+- pillow==12.1.1  
+- primePy==1.3  
+- propcache==0.4.1  
+- protobuf==6.33.5  
+- psutil==7.2.1  
+- pyannote-audio==4.0.4  
+- pyannote-core==6.0.1  
+- pyannote-database==6.1.1  
+- pyannote-metrics==4.0.0  
+- pyannote-pipeline==4.0.0  
+- pyannoteai-sdk==0.4.0  
+- pycparser==3.0  
+- pydantic==2.12.5  
+- pydantic_core==2.41.5  
+- Pygments==2.19.2  
+- pyinstaller==6.19.0  
+- pyinstaller-hooks-contrib==2026.1  
+- PyNaCl==1.6.2  
+- pyparsing==3.3.2  
+- PySide6==6.10.0  
+- PySide6_Addons==6.10.0  
+- PySide6_Essentials==6.10.0  
+- python-dateutil==2.9.0.post0  
+- pytorch-lightning==2.6.1  
+- pytorch-metric-learning==2.9.0  
+- PyYAML==6.0.3  
+- regex==2026.1.15  
+- requests==2.32.5  
+- rich==14.3.2  
+- safetensors==0.7.0  
+- scikit-learn==1.8.0  
+- scipy==1.17.0  
+- shellingham==1.5.4  
+- shiboken6==6.10.0  
+- six==1.17.0  
+- sniffio==1.3.1  
+- sortedcontainers==2.4.0  
+- sounddevice==0.5.3  
+- soundfile==0.13.1  
+- SQLAlchemy==2.0.46  
+- sympy==1.14.0  
+- threadpoolctl==3.6.0  
+- tiktoken==0.12.0  
+- tokenizers==0.22.2  
+- toml==0.10.2  
+- tomli_w==1.2.0  
+- tomlkit==0.13.3  
+- torch==2.10.0  
+- torch-audiomentations==0.12.0  
+- torch_pitch_shift==1.2.5  
+- torchaudio==2.10.0  
+- torchcodec==0.10.0  
+- torchmetrics==1.8.2  
+- tqdm==4.67.3  
+- typer==0.23.1  
+- typer-slim==0.23.1  
+- typing-inspection==0.4.2  
+- typing_extensions==4.15.0  
+- urllib3==2.6.3  
+- yarl==1.22.0  
+- zipp==3.23.0  
 </details>

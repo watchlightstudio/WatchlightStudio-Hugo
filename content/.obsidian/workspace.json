@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nucleate/05-legal/nucleate-eula.md",
+                "file": "nucleate/05-legal/nucleate-license.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "nucleate-eula"
+              "title": "nucleate-license"
             }
           }
         ]
@@ -168,12 +168,13 @@
   },
   "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
-    "nucleate/05-legal/nucleate-license.md",
     "nucleate/05-legal/_index.md",
+    "nucleate/_index.md",
     "nucleate/01-overview/_index.md",
+    "nucleate/05-legal/nucleate-eula.md",
+    "nucleate/05-legal/nucleate-license.md",
     "nucleate/01-overview/02-nucleate-comparison.md",
     "nucleate/01-overview/01-nucleate-background.md",
-    "nucleate/05-legal/nucleate-eula.md",
     "nucleate/01-overview/03-nucleate-journey.md",
     "about/watchlight-values.md",
     "about/watchlight-origins.md",
@@ -193,7 +194,6 @@
     "nucleate/03-setup-and-compatibility/01-nucleate-compatibility-cheat-sheet.md",
     "nucleate/04-using-nucleate/03-custom-modes.md",
     "nucleate/04-using-nucleate/02-talking-out-loud.md",
-    "nucleate/04-using-nucleate/_index.md",
     "Pasted image 20260226214828.png",
     "Untitled.base",
     "projects-and-tools/nucleate 1/04-using-nucleate",

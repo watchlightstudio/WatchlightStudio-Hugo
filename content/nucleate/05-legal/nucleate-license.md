@@ -2,6 +2,7 @@
 linkTitle: "Dependencies"
 type: docs
 weight: 10
+url: "/nucleate/legal/license"
 ---
 ## LICENSE LIST
 

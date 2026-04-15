@@ -12,6 +12,6 @@ Nothing hidden, nothing unusual — just being transparent about what's inside.
 
 >
 {{< cards >}}
-  {{< card link="nucleate-eula" title="End User License Agreement" icon="information-circle" >}}
-  {{< card link="nucleate-license" title="Dependencies" icon="information-circle" >}}
+  {{< card link="/nucleate/legal/eula" title="End User License Agreement" icon="information-circle" >}}
+  {{< card link="/nucleate/legal/license" title="Dependencies" icon="information-circle" >}}
 {{< /cards >}}

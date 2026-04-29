@@ -6,6 +6,8 @@ weight: 3
 ## Nucleate by Watchlight
 A privacy-first transcription and summarization tool, built for developers, small businesses, and individuals who like to talk.
 
+Visit the product page: https://watchlightstudio.gumroad.com/l/Nucleate
+
 ## Explore
 
 {{< cards >}}

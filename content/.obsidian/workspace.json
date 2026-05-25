@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nucleate/01-overview/03-nucleate-journey.md",
+                "file": "nucleate/_index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "03-nucleate-journey"
+              "title": "_index"
             }
           }
         ]
@@ -168,6 +168,7 @@
   },
   "active": "c05f9507d27f0f00",
   "lastOpenFiles": [
+    "nucleate/01-overview/03-nucleate-journey.md",
     "nucleate/01-overview/02-nucleate-comparison.md",
     "nucleate/01-overview/01-nucleate-background.md",
     "nucleate/03-setup-and-compatibility/05-nucleate-ffmpeg-installation.md",
@@ -180,7 +181,6 @@
     "devlog/2026-devlogs/Nucleate-2026-02.md",
     "devlog/2026-devlogs/Nucleate-2026-01.md",
     "nucleate/02-how-it-works/02-nucleate-performance.md",
-    "nucleate/01-overview/03-nucleate-journey.md",
     "nucleate/04-using-nucleate/01-nucleate-menu.md",
     "nucleate/_index.md",
     "nucleate/05-legal/nucleate-license.md",

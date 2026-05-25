@@ -14,25 +14,24 @@ On first launch, Nucleate automatically optimizes settings for your system. You'
 
 These configurations provide the best balance of compatibility and performance for local transcription & summarization.
 
-|Capability ↓ /// Hardware → (>16GB RAM)|Win CUDA<sup>*</sup>|Metal Mac|Win No CUDA|Intel Mac|
+|Capability ↓ /// Hardware → (>16GB RAM)|Win CUDA<sup>*</sup>|Metal Mac|Win No CUDA|
 |---|---|---|---|---|
-|Faster-Whisper (CPU)|✅|✅|✅|✅|
-|Faster-Whisper (GPU)|✅|❌|❌|❌|
-|Whisper (CPU)|✅|✅|✅|❌|
-|Whisper (GPU / MPS)|✅|✅|❌|❌|
-|Transcription: base → large-v3-turbo|✅|✅|✅|✅|
-|Ollama (local)|✅|✅|✅|✅|
-|Ollama Overdrive|✅|✅|✅|✅|
-|Diarization (CPU)|✅|✅|✅|❌|
-|Diarization (GPU/MPS)|✅|✅|❌|❌|
-|OpenAI API|✅|✅|✅|✅|
+|Faster-Whisper (CPU)|✅|✅|✅|
+|Faster-Whisper (GPU)|✅|❌|❌|
+|Whisper (CPU)|✅|✅|✅|
+|Whisper (GPU / MPS)|✅|✅|❌|
+|Transcription: base → large-v3-turbo|✅|✅|✅|
+|Ollama (local)|✅|✅|✅|
+|Ollama Overdrive|✅|✅|✅|
+|Diarization (CPU)|✅|✅|✅|
+|Diarization (GPU/MPS)|✅|✅|❌|
+|OpenAI API|✅|✅|✅|
 
 {{< callout type="info" >}}
 • <sup>*</sup>Windows CUDA (≥16GB RAM, ≥8GB VRAM)  
 • On Windows, Ollama Overdrive stores models in memory. Benefits strongly from ≥16GB of memory.  
 • Faster-Whisper GPU acceleration is only available on Windows with CUDA.  
-• On macOS, GPU acceleration requires the Whisper backend and Apple Metal.  
-• Intel Macs cannot run Whisper or diarization models due to PyTorch limitations.  
+• On macOS, GPU acceleration requires the Whisper backend and Apple Metal. 
 {{< /callout >}}
 
 ### CUDA GPU VRAM Guidance (Windows)
@@ -52,7 +51,6 @@ The following configurations are supported, but functionality is constrained and
 
 |Hardware|Key limitations|
 |---|---|
-|Intel Mac (8GB)|Faster-Whisper (CPU) only; base/small transcription models; no Whisper or diarization support; Ollama Overdrive not recommended|
 |Apple Silicon Mac (Metal, 8GB)|Whisper GPU supported but limited to base/small models; Ollama Overdrive not recommended|
 |Windows (No CUDA, 8GB)|CPU-only transcription; base/small models only; Ollama Overdrive not recommended|
 |Windows (CUDA, 8GB VRAM)|GPU acceleration supported, but limited to base/small transcription models|

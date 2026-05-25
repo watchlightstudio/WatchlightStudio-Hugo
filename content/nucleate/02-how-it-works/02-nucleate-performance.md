@@ -152,7 +152,7 @@ Running locally and assuming 250W device, 0.21 cents/kWh
 </details>
 
 <details>
-<summary>Local transcription using a 2020 Macbook Pro (Intel x86, 8GB):</summary>
+<summary>Local transcription using a 2020 Macbook Pro (Intel x86, 8GB) - unreleased:</summary>
 
 | Faster-Whisper     | **Base**    | **Small**   | **Medium**  | **Large-v3** | **Large-v3-turbo**   |
 | ------------------ | ----------- | ----------- | ----------- | ------------ | -------------------- |

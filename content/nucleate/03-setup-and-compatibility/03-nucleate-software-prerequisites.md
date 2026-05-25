@@ -8,9 +8,9 @@ url: "/nucleate/setup-and-compatibility/software"
 ## Recommended software
 
 ## Ollama
-Ollama is required if you want to perform local summarization. If you use OpenAI API services instead, Ollama is not required and can be ignored.
+Ollama is required for first time startup. [Downloading Ollama](https://ollama.com/download) in-advance is recommended, but Nucleate will attempt an auto-install if not detected on the target machine.
 
-Mistral is the recommended Ollama model and will be automatically downloaded during first-time setup. Model variants will be built to support both the core summarizers (Daily, Weekly, Monthly) and all Insights. The models will be re-built if the user mode is changed.
+Qwen and Mistral are the recommended Ollama models for high-end and lower-end hardware. On startup, Nucleate will review your hardware and auto-select whichever is more appropriate. Model variants will be built to support both the core summarizers (Daily, Weekly, Monthly) and all Insights. The models will be re-built if the user mode is changed.
 
 ### In-app status
 During app launch, Nucleate will check whether Ollama is currently running in the background or system tray. If not already running, Nucleate will attempt to start Ollama. The indicator light on the Hub reflects the current Ollama status.
@@ -19,17 +19,21 @@ Ollama will remain open in the background when Nucleate is closed.
 {{< /callout >}}
 
 ### In-app model customization
-Mistral 7B is the preferred LLM for Nucleate summarization. It's punchy for its size and fits well on most CUDA hardware. The system prompts and Insights have been tuned to support its typical output.
+Qwen3:8B and Mistral 7B are the preferred LLMs for Nucleate summarization. Qwen3 is quite powerful but requires more high-end hardware. Summaries often take longer, but the quality is top notch, provided transcript content is adequate. Mistral 7B is punchy for its size and fits well on most CUDA hardware. 
+
+The system prompts and Insights have been tuned to support both Qwen3 and Mistral's typical output.
 
 >Prefer a different model? You can change it at any time.
 
 Pick from one of the most common Ollama downloads or enter your own. Anything listed on the Ollama models page can be pulled into Nucleate. I figure that you shouldn't have to wait for an in-app update to get best-of-the-best, especially considering how fast new models are being released.
 
-## FFmpeg and FFprobe
-FFmpeg and FFprobe are essential for handling a wide range of audio formats and enabling Whisper-based transcription. Without them, Nucleate is limited to WAV-only audio and cannot use certain transcription backends.
+## FFmpeg
+FFmpeg is essential for handling a wide range of audio formats and enabling Whisper-based transcription. Without it, Nucleate is limited to WAV-only audio and cannot use certain transcription backends.
 
 {{< callout type="info" >}}
-Installing FFmpeg is strongly recommended. [Installation instructions are available here](/nucleate/setup-and-compatibility/ffmpeg-ffprobe). Once installed, Nucleate will automatically detect it and unlock support for all other common audio file types (.mp3, .mp4, .m4a, etc)
+Installing FFmpeg before Nucleate setup is recommended. [Installation instructions are available here](/nucleate/setup-and-compatibility/ffmpeg-ffprobe). Once installed, Nucleate will automatically detect it and unlock support for all other common audio file types (.mp3, .mp4, .m4a, etc)
+
+If FFmpeg has not been installed, Nucleate will attempt to do so automatically.
 {{< /callout >}}
 
 ### Why isn't FFmpeg bundled with Nucleate?

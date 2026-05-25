@@ -33,21 +33,18 @@ On Windows, an NVIDIA GPU is strongly recommended and provides the most flexible
 {{< /callout >}}
 
 #### Mac
-On Mac, Nucleate supports hardware acceleration via Apple Metal (M-Series)/Unified Memory and will fall back to CPU-only support on older platforms (Intel series chips). Ollama, Whisper, and Diarization support native Metal acceleration, albeit sometimes CPU can be faster for transcription processes. Faster-Whisper transcription does not currently support hardware acceleration on macOS and runs on CPU only.
+On Mac, Nucleate supports hardware acceleration via Apple Metal (M-Series)/Unified Memory. Ollama, Whisper, and Diarization support native Metal acceleration, albeit sometimes CPU can be faster for transcription processes. Faster-Whisper transcription does not currently support hardware acceleration on macOS and runs on CPU only.
 
 ##### Mac hardware recommendations
 | CPU   | RAM (min) | GPU   | VRAM   | Transcription | Summarization    | OpenAI support | Local speed  |
 | ------| ----------| ------| -------| ------------- | ---------------- | -------------- | ------------- |
 | Any   | <16GB     | -     | -      | -             | -                | Yes            | N/A          |
-| Intel<span style="color:red;">**</span> | 16-128GB  | -     | -      | CPU-only      | CPU-only         | Yes            | Slow         |
 | M1    | 16-128GB  | Metal | Shared | GPU<span style="color:yellow;">**</span>   | GPU | Yes            | Medium       |
 | M2    | 16-128GB  | Metal | Shared | GPU<span style="color:yellow;">**</span>   | GPU | Yes            | Medium       |
 | M3    | 16-128GB  | Metal | Shared | GPU<span style="color:yellow;">**</span>   | GPU | Yes            | Fast         |
 | M4    | 16-128GB  | Metal | Shared | CPU<span style="color:green;">**</span>   | GPU | Yes            | Fast         |
 
 {{< callout type="info" >}}
-<span style="color:red;">**</span>Legacy Mac cannot use Whisper or diarization models, which require PyTorch 2.8.x. The last official release on Intel hardware was PyTorch 2.2.x.
-
 <span style="color:yellow;">**</span>Metal acceleration requires using the "Whisper" backend.
 
 <span style="color:green;">**</span>Testing with a 2024 Mac Mini (M4) showed that CPU was slightly more optimized. The M4 is performant and doesn't benefit from MPS acceleration.

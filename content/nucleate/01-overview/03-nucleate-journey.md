@@ -46,6 +46,6 @@ I like data! See the stats that went into Nucleate pre-release.
 - December 21st: Removed tkinker legacy code from repo, consolidation
 - January 1st: macOS (x86) first development round complete
 - February 16th: macOS (Apple Silicon) first development round complete
-- February 25th: Windows w/ CUDA, Windows w/ CPU, macOS w/ Apple Silicon, and macOS w/ Intel packaged successfully
+- February 25th: Windows w/ CUDA, Windows w/ CPU, and macOS w/ Apple Silicon packaged successfully
 
 <img src="/nucleate_stats.png">

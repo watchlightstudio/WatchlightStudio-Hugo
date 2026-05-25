@@ -10,9 +10,16 @@ url: "/nucleate/setup-and-compatibility/ffmpeg-ffprobe"
 ### Prerequisites
 - **Operating System:** Windows or macOS 
 - **Administrator privileges** to install binaries and update your PATH  
-- Optional but recommended: verify that your machine meets the [hardware requirements](/nucleate/setup-and-compatibility/hardware) for local transcription.
+- Optional but recommended: verify that your machine meets the [hardware requirements](/nucleate/setup-and-compatibility/hardware) for local transcription & summarization.
 
-### Installation Instructions
+### Auto installation
+On both Windows and macOS, Nucleate will attempt to automatically install Ollama and FFmpeg during first time startup. The installation process is pretty quiet on Windows, but macOS has a few special notes.  Do not be afraid!
+
+{{< callout type="info" >}}
+macOS requires an admin account to install FFmpeg. The recommended approach is to install via Nucleate startup sequence. During startup, Nucleate will launch a terminal window with "sudo" request to install [Homebrew](https://brew.sh/). Homebrew is a package manager for macOS, like "pip" for Python. Once installed, Nucleate will automatically grab Ollama (if not already installed) and FFmpeg.
+{{< /callout >}}
+
+### Manual installation Instructions
 #### Windows
 1. Download the latest FFmpeg static build for Windows from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).  
 2. Extract the ZIP to a folder of your choice (e.g., `C:\ffmpeg`).  
@@ -52,7 +59,7 @@ which ffprobe
 #### macOS (manual installation)
 1. If you prefer not to use Homebrew, download a static build of FFmpeg for your CPU architecture:
 2. **Apple Silicon (arm64 / M1/M2):** https://www.osxexperts.net/
-3. **Intel macOS (x86_64):** https://evermeet.cx/ffmpeg/
+3. **Intel macOS (x86_64):** https://evermeet.cx/ffmpeg/ (legacy, not supported)
 4. Download the ZIPs for both ffmpeg and ffprobe and extract them.
 5. Move the ffmpeg and ffprobe binaries to a folder on your PATH (.e.g., /usr/local/bin). You may need sudo:
 ```

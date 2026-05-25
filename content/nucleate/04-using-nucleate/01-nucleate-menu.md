@@ -315,7 +315,7 @@ Advanced features are available to **Nucleate Pro users**, provided the system m
 	- Significantly increases summarization speed (≈ +50% TPS in many cases)
 	- Is especially beneficial for frequent, automated, or background summaries
 
-	Testing on both Mac with Intel and Apple Silicon hardware, Overdrive often does not provide additional tokens per second enhancement.
+	Testing on macOS with Apple Silicon hardware, Overdrive often does not provide additional tokens per second enhancement.
 
 	{{< callout type="warning" >}}  
 	Ollama Overdrive is **not recommended for systems with limited RAM or VRAM**. Keeping models resident in memory reduces resources available to other applications.  

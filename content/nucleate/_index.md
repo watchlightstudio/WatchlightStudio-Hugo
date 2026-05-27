@@ -8,6 +8,8 @@ A privacy-first transcription and summarization tool, built for developers, smal
 
 Grab a copy (it's free!): https://watchlightstudio.gumroad.com/l/Nucleate
 
+<img src="/nucleate_promo.gif">
+
 ## Explore
 
 {{< cards >}}
